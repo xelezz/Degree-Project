@@ -1,5 +1,5 @@
 sceneSetups:
-- path: C:/Users/xelez/Documents/Current Projects/SliceCube/Assets/Scenes/SliceItMain.unity
+- path: Assets/Scenes/MainScene.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
