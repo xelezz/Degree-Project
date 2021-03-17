@@ -695,6 +695,36 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1012012543}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1108651880
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1108651881}
+  m_Layer: 0
+  m_Name: CubeInstatiate (4)
+  m_TagString: Untagged
+  m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1108651881
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1108651880}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 7.58, y: 0.29, z: 0.07}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1375372780}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1134838010
 GameObject:
   m_ObjectHideFlags: 0
@@ -907,6 +937,7 @@ Transform:
   m_Children:
   - {fileID: 857298899}
   - {fileID: 618458247}
+  - {fileID: 1108651881}
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -923,11 +954,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cubes:
-  - {fileID: 7099953535053748286, guid: e523f1397cf472c42b44519816dfe1b0, type: 3}
-  - {fileID: 8345955354147242760, guid: d99a84dc19721b1498e870f63d24cf5a, type: 3}
+  - {fileID: 8773529306493220719, guid: b6c008ebc0498c24392a34d565f82606, type: 3}
+  - {fileID: 3424482508437726504, guid: 3883a479ba7b7374f8ce836085565215, type: 3}
   points:
   - {fileID: 857298899}
   - {fileID: 618458247}
+  - {fileID: 1108651881}
   beat: 1
   timerScene: 1
   TimeToLoadScene: 1000
@@ -1310,7 +1342,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 4ddd3f817c1a9064ab89c59685122dfd, type: 3}
+  m_audioClip: {fileID: 8300000, guid: f5f06fabfa6695048be282ed3625f037, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1

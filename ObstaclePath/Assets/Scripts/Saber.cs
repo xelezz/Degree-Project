@@ -7,14 +7,11 @@ public class Saber : MonoBehaviour
 {
     [SerializeField]
     private LayerMask layer;
+    [SerializeField] 
+    private int score = 1;
     private Vector3 previousPos;
-    public int score = 1;
 
 
-    private void Start()
-    {
-
-    }
 
     void Update()
     {
@@ -23,6 +20,7 @@ public class Saber : MonoBehaviour
         {
             if (Vector3.Angle(transform.position - previousPos, hit.transform.up) > 130)
             {
+                
                 Destroy(hit.transform.gameObject);
                 score = score += 1;
             }
@@ -32,7 +30,7 @@ public class Saber : MonoBehaviour
             }
             if (score <= 0)
             {
-                SceneManager.LoadScene("LoseScene");
+               // SceneManager.LoadScene("LoseScene");
                 Debug.Log("You loose");
             }
         }
