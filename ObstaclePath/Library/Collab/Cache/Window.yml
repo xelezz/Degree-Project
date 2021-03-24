@@ -14,24 +14,211 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SimpleSelectedItems:
     m_Keys:
-    - Assets/Prefabs/CubeObstacle.prefab
-    - Assets/Prefabs/CubeObstacle.prefab.meta
-    - Assets/Prefabs/SphereObstacle.prefab
-    - Assets/Prefabs/SphereObstacle.prefab.meta
-    - Assets/Scenes/MainScene/MainScene.unity
-    - Assets/Scenes/MainTest/MainTest.unity
-    - Assets/Scenes/TestScene.unity
-    - Assets/Scripts/CubeSpawner.cs
-    - Assets/Scripts/Saber.cs
-    - Assets/Scripts/ScoreText.cs
-    - Assets/Scripts/ScoreText.cs.meta
-    - Assets/Scripts/VRControllerInput.cs
-    - Assets/Scripts/VRControllerInput.cs.meta
-    - Assets/Scripts/VRPlayerController.cs
+    - Assets/Animations.meta
+    - Assets/Animations/Anims.meta
+    - Assets/Animations/Anims/Animations.meta
+    - Assets/Animations/Anims/Animations/Oculus Touch Controller - Left 1.controller
+    - Assets/Animations/Anims/Animations/Oculus Touch Controller - Left 1.controller.meta
+    - Assets/Animations/Anims/Animations/Oculus Touch Controller - Left.controller
+    - Assets/Animations/Anims/Animations/Oculus Touch Controller - Left.controller.meta
+    - Assets/Animations/Anims/Animations/l_hand_cap_touch_anim.fbx
+    - Assets/Animations/Anims/Animations/l_hand_cap_touch_anim.fbx.meta
+    - Assets/Animations/Anims/Animations/l_hand_cap_touch_index_mask_anim.fbx
+    - Assets/Animations/Anims/Animations/l_hand_cap_touch_index_mask_anim.fbx.meta
+    - Assets/Animations/Anims/Animations/l_hand_cap_touch_thumb_mask_anim.fbx
+    - Assets/Animations/Anims/Animations/l_hand_cap_touch_thumb_mask_anim.fbx.meta
+    - Assets/Animations/Anims/Animations/l_hand_default_anim.fbx
+    - Assets/Animations/Anims/Animations/l_hand_default_anim.fbx.meta
+    - Assets/Animations/Anims/Animations/l_hand_fist_anim.fbx
+    - Assets/Animations/Anims/Animations/l_hand_fist_anim.fbx.meta
+    - Assets/Animations/Anims/Animations/l_hand_hold_billiard_ball_anim.fbx
+    - Assets/Animations/Anims/Animations/l_hand_hold_billiard_ball_anim.fbx.meta
+    - Assets/Animations/Anims/Animations/l_hand_hold_generic_anim.fbx
+    - Assets/Animations/Anims/Animations/l_hand_hold_generic_anim.fbx.meta
+    - Assets/Animations/Anims/Animations/l_hand_hold_l_controller_anim.fbx
+    - Assets/Animations/Anims/Animations/l_hand_hold_l_controller_anim.fbx.meta
+    - Assets/Animations/Anims/Animations/l_hand_hold_ping_pong_ball_anim.fbx
+    - Assets/Animations/Anims/Animations/l_hand_hold_ping_pong_ball_anim.fbx.meta
+    - Assets/Animations/Anims/Animations/l_hand_pinch_anim.fbx
+    - Assets/Animations/Anims/Animations/l_hand_pinch_anim.fbx.meta
+    - Assets/Animations/Anims/Animations/l_hand_point_anim.fbx
+    - Assets/Animations/Anims/Animations/l_hand_point_anim.fbx.meta
+    - Assets/Animations/Anims/Animations/l_hand_relax_3qtr_fist_anim.fbx
+    - Assets/Animations/Anims/Animations/l_hand_relax_3qtr_fist_anim.fbx.meta
+    - Assets/Animations/Anims/Animations/l_hand_relax_mid_fist_anim.fbx
+    - Assets/Animations/Anims/Animations/l_hand_relax_mid_fist_anim.fbx.meta
+    - Assets/Animations/Anims/Animations/l_hand_squirtgun_hold.fbx
+    - Assets/Animations/Anims/Animations/l_hand_squirtgun_hold.fbx.meta
+    - Assets/Animations/Anims/Animations/l_hand_squirtgun_squeeze.fbx
+    - Assets/Animations/Anims/Animations/l_hand_squirtgun_squeeze.fbx.meta
+    - Assets/Animations/Anims/Animations/l_hand_thumbs_up_anim.fbx
+    - Assets/Animations/Anims/Animations/l_hand_thumbs_up_anim.fbx.meta
+    - Assets/Animations/Anims/Animations/old_l_hand_pinch_anim.fbx
+    - Assets/Animations/Anims/Animations/old_l_hand_pinch_anim.fbx.meta
+    - Assets/Animations/Anims/Animations/old_r_hand_pinch_anim.fbx
+    - Assets/Animations/Anims/Animations/old_r_hand_pinch_anim.fbx.meta
+    - Assets/Animations/Anims/Animations/r_hand_cap_touch_anim.fbx
+    - Assets/Animations/Anims/Animations/r_hand_cap_touch_anim.fbx.meta
+    - Assets/Animations/Anims/Animations/r_hand_cap_touch_index_mask_anim.fbx
+    - Assets/Animations/Anims/Animations/r_hand_cap_touch_index_mask_anim.fbx.meta
+    - Assets/Animations/Anims/Animations/r_hand_cap_touch_thumb_mask_anim.fbx
+    - Assets/Animations/Anims/Animations/r_hand_cap_touch_thumb_mask_anim.fbx.meta
+    - Assets/Animations/Anims/Animations/r_hand_default_anim.fbx
+    - Assets/Animations/Anims/Animations/r_hand_default_anim.fbx.meta
+    - Assets/Animations/Anims/Animations/r_hand_fist_anim.fbx
+    - Assets/Animations/Anims/Animations/r_hand_fist_anim.fbx.meta
+    - Assets/Animations/Anims/Animations/r_hand_hold_billiard_ball_anim.fbx
+    - Assets/Animations/Anims/Animations/r_hand_hold_billiard_ball_anim.fbx.meta
+    - Assets/Animations/Anims/Animations/r_hand_hold_generic_anim.fbx
+    - Assets/Animations/Anims/Animations/r_hand_hold_generic_anim.fbx.meta
+    - Assets/Animations/Anims/Animations/r_hand_hold_ping_pong_ball_anim.fbx
+    - Assets/Animations/Anims/Animations/r_hand_hold_ping_pong_ball_anim.fbx.meta
+    - Assets/Animations/Anims/Animations/r_hand_hold_r_controller_anim.fbx
+    - Assets/Animations/Anims/Animations/r_hand_hold_r_controller_anim.fbx.meta
+    - Assets/Animations/Anims/Animations/r_hand_pinch_anim.fbx
+    - Assets/Animations/Anims/Animations/r_hand_pinch_anim.fbx.meta
+    - Assets/Animations/Anims/Animations/r_hand_point_anim.fbx
+    - Assets/Animations/Anims/Animations/r_hand_point_anim.fbx.meta
+    - Assets/Animations/Anims/Animations/r_hand_relax_3qtr_fist_anim.fbx
+    - Assets/Animations/Anims/Animations/r_hand_relax_3qtr_fist_anim.fbx.meta
+    - Assets/Animations/Anims/Animations/r_hand_relax_mid_fist_anim.fbx
+    - Assets/Animations/Anims/Animations/r_hand_relax_mid_fist_anim.fbx.meta
+    - Assets/Animations/Anims/Animations/r_hand_squirtgun_hold.fbx
+    - Assets/Animations/Anims/Animations/r_hand_squirtgun_hold.fbx.meta
+    - Assets/Animations/Anims/Animations/r_hand_squirtgun_squeeze.fbx
+    - Assets/Animations/Anims/Animations/r_hand_squirtgun_squeeze.fbx.meta
+    - Assets/Animations/Anims/Animations/r_hand_thumbs_up_anim.fbx
+    - Assets/Animations/Anims/Animations/r_hand_thumbs_up_anim.fbx.meta
+    - Assets/Animations/Anims/OculusHand_L 1.controller
+    - Assets/Animations/Anims/OculusHand_L 1.controller.meta
+    - Assets/Animations/Anims/OculusHand_L 2.controller
+    - Assets/Animations/Anims/OculusHand_L 2.controller.meta
+    - Assets/Animations/Anims/OculusHand_L.controller
+    - Assets/Animations/Anims/OculusHand_L.controller.meta
+    - Assets/Animations/Anims/Pinch.anim
+    - Assets/Animations/Anims/Pinch.anim.meta
+    - Assets/Animations/Anims/default.anim
+    - Assets/Animations/Anims/default.anim.meta
+    - Assets/Animations/Anims/fist.anim
+    - Assets/Animations/Anims/fist.anim.meta
+    - Assets/Animations/Anims/l_index_knuckle_marker.controller
+    - Assets/Animations/Anims/l_index_knuckle_marker.controller.meta
+    - Assets/Animations/CustomHandLeft.prefab
+    - Assets/Animations/CustomHandLeft.prefab.meta
+    - Assets/Animations/CustomHandRight.prefab
+    - Assets/Animations/CustomHandRight.prefab.meta
+    - Assets/AssetsUsed/Prefabs/OVRCameraRig Variant.prefab
+    - Assets/AssetsUsed/Prefabs/OVRCameraRig Variant.prefab.meta
+    - Assets/AssetsUsed/Prefabs/OVRCameraRig.prefab
+    - Assets/AssetsUsed/Prefabs/OVRCameraRig.prefab.meta
+    - Assets/Material.meta
+    - Assets/PluginsPagages/Oculus/VR/Prefabs/OVRCameraRig.prefab
+    - Assets/Prefabs.meta
+    - Assets/Prefabs/Controller 1.prefab
+    - Assets/Prefabs/Controller 1.prefab.meta
+    - Assets/Prefabs/ControllerPrefabs.prefab
+    - Assets/Prefabs/ControllerPrefabs.prefab.meta
+    - Assets/Prefabs/Default Controller.prefab
+    - Assets/Prefabs/Default Controller.prefab.meta
+    - Assets/Prefabs/Oculus Quest Controller - Left.prefab
+    - Assets/Prefabs/Oculus Quest Controller - Left.prefab.meta
+    - Assets/Prefabs/Oculus Quest Controller - Right.prefab
+    - Assets/Prefabs/Oculus Quest Controller - Right.prefab.meta
+    - Assets/Prefabs/Oculus Touch Controller - Left.prefab
+    - Assets/Prefabs/Oculus Touch Controller - Left.prefab.meta
+    - Assets/Prefabs/Oculus Touch Controller - Right.prefab
+    - Assets/Prefabs/Oculus Touch Controller - Right.prefab.meta
+    - Assets/Prefabs/Prefabs.meta
+    - Assets/Prefabs/Prefabs/Audio.prefab
+    - Assets/Prefabs/Prefabs/Audio.prefab.meta
+    - Assets/Prefabs/Prefabs/BlueCube.prefab
+    - Assets/Prefabs/Prefabs/BlueCube.prefab.meta
+    - Assets/Prefabs/Prefabs/Controller.prefab
+    - Assets/Prefabs/Prefabs/Controller.prefab.meta
+    - Assets/Prefabs/Prefabs/Cube.prefab
+    - Assets/Prefabs/Prefabs/Cube.prefab.meta
+    - Assets/Prefabs/Prefabs/CubeObstacle.prefab
+    - Assets/Prefabs/Prefabs/CubeObstacle.prefab.meta
+    - Assets/Prefabs/Prefabs/HandMesh.prefab
+    - Assets/Prefabs/Prefabs/HandMesh.prefab.meta
+    - Assets/Prefabs/Prefabs/OVRCameraRig Variant.prefab
+    - Assets/Prefabs/Prefabs/OVRCameraRig Variant.prefab.meta
+    - Assets/Prefabs/Prefabs/Platform.prefab
+    - Assets/Prefabs/Prefabs/Platform.prefab.meta
+    - Assets/Prefabs/Prefabs/RedCube.prefab
+    - Assets/Prefabs/Prefabs/RedCube.prefab.meta
+    - Assets/Prefabs/Prefabs/Spawner.prefab
+    - Assets/Prefabs/Prefabs/Spawner.prefab.meta
+    - Assets/Prefabs/Prefabs/SphereObstacle.prefab
+    - Assets/Prefabs/Prefabs/SphereObstacle.prefab.meta
+    - Assets/Prefabs/Prefabs/Test objects.prefab
+    - Assets/Prefabs/Prefabs/Test objects.prefab.meta
+    - Assets/Prefabs/Prefabs/VRRigg.prefab
+    - Assets/Prefabs/Prefabs/VRRigg.prefab.meta
+    - Assets/Prefabs/Prefabs/Walls.prefab
+    - Assets/Prefabs/Prefabs/Walls.prefab.meta
+    - Assets/Prefabs/VR RigUnity.prefab
+    - Assets/Prefabs/VR RigUnity.prefab.meta
+    - Assets/Scenes.meta
+    - Assets/Scenes/ObstaclePathMain.unity
+    - Assets/Scenes/ObstaclePathMain.unity.meta
+    - Assets/Scenes/Scenes.meta
+    - Assets/Scenes/Scenes/LoseScene.unity
+    - Assets/Scenes/Scenes/LoseScene.unity.meta
+    - Assets/Scenes/Scenes/MainScene.meta
+    - Assets/Scenes/Scenes/MainScene/MainScene.meta
+    - Assets/Scenes/Scenes/MainScene/MainScene.unity
+    - Assets/Scenes/Scenes/MainScene/MainScene.unity.meta
+    - Assets/Scenes/Scenes/MainScene/MainScene/LightingData.asset
+    - Assets/Scenes/Scenes/MainScene/MainScene/LightingData.asset.meta
+    - Assets/Scenes/Scenes/MainScene/MainScene/ReflectionProbe-0.exr
+    - Assets/Scenes/Scenes/MainScene/MainScene/ReflectionProbe-0.exr.meta
+    - Assets/Scenes/Scenes/MainTest.meta
+    - Assets/Scenes/Scenes/MainTest/MainScene.meta
+    - Assets/Scenes/Scenes/MainTest/MainScene/LightingData.asset
+    - Assets/Scenes/Scenes/MainTest/MainScene/LightingData.asset.meta
+    - Assets/Scenes/Scenes/MainTest/MainScene/ReflectionProbe-0.exr
+    - Assets/Scenes/Scenes/MainTest/MainScene/ReflectionProbe-0.exr.meta
+    - Assets/Scenes/Scenes/MainTest/MainTest.unity
+    - Assets/Scenes/Scenes/MainTest/MainTest.unity.meta
+    - Assets/Scenes/Scenes/Obstacle path.unity
+    - Assets/Scenes/Scenes/Obstacle path.unity.meta
+    - Assets/Scenes/Scenes/Obstaclescene.lighting
+    - Assets/Scenes/Scenes/Obstaclescene.lighting.meta
+    - Assets/Scenes/Scenes/TestScene 1.unity
+    - Assets/Scenes/Scenes/TestScene 1.unity.meta
+    - Assets/Scenes/Scenes/TestScene.unity
+    - Assets/Scenes/Scenes/TestScene.unity.meta
+    - Assets/Scenes/Scenes/WinScene.unity
+    - Assets/Scenes/Scenes/WinScene.unity.meta
+    - Assets/Scripts.meta
+    - Assets/Scripts/ControllerCharacteristics.cs
+    - Assets/Scripts/ControllerCharacteristics.cs.meta
+    - Assets/Scripts/Scripts.meta
+    - Assets/Scripts/Scripts/Controller.cs
+    - Assets/Scripts/Scripts/Controller.cs.meta
+    - Assets/Scripts/Scripts/Cube.cs
+    - Assets/Scripts/Scripts/Cube.cs.meta
+    - Assets/Scripts/Scripts/CubeSpawner.cs
+    - Assets/Scripts/Scripts/CubeSpawner.cs.meta
+    - Assets/Scripts/Scripts/HandPreference.cs
+    - Assets/Scripts/Scripts/HandPreference.cs.meta
+    - Assets/Scripts/Scripts/InputManager.cs
+    - Assets/Scripts/Scripts/InputManager.cs.meta
+    - Assets/Scripts/Scripts/PickupHand.cs
+    - Assets/Scripts/Scripts/PickupHand.cs.meta
+    - Assets/Scripts/Scripts/Saber.cs
+    - Assets/Scripts/Scripts/Saber.cs.meta
+    - Assets/Scripts/Scripts/VRControllerInput.cs
+    - Assets/Scripts/Scripts/VRControllerInput.cs.meta
+    - Assets/Scripts/Scripts/VRPlayerController.cs
+    - Assets/Scripts/Scripts/VRPlayerController.cs.meta
+    - Assets/Scripts/Scripts/VrController.cs
+    - Assets/Scripts/Scripts/VrController.cs.meta
     - 
-    m_Values: 000000000000000000000000000000
+    m_Values: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001010101000100010100000000000000000000000000000000000000000000000000000000000000000000000000000000000101000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   RevisionSummary: 
   ChangesSearchValue: 
-  SelectedHistoryRevision: 
+  SelectedHistoryRevision: 6288f2b82861de1f5aa870979757562db02f9a9c
   HistoryPageNumber: 0
-  TabIndex: 0
+  TabIndex: 1

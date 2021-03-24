@@ -70,6 +70,7 @@
     <Compile Include="Assets\PluginsPagages\Oculus\Spatializer\scripts\ONSPAudioSource.cs" />
     <Compile Include="Assets\PluginsPagages\Oculus\SampleFramework\Usage\HandsTrainExample\Scripts\WindmillController.cs" />
     <Compile Include="Assets\PluginsPagages\Oculus\Avatar\Scripts\OvrAvatarSettings.cs" />
+    <Compile Include="Assets\Scripts\Scripts\Controller.cs" />
     <Compile Include="Assets\PluginsPagages\Oculus\SampleFramework\Core\DebugUI\Scripts\LaserPointer.cs" />
     <Compile Include="Assets\PluginsPagages\Oculus\SampleFramework\Core\Locomotion\Scripts\TeleportTransition.cs" />
     <Compile Include="Assets\PluginsPagages\Oculus\Avatar\Scripts\OvrAvatarSDKCAPI.cs" />
@@ -130,7 +131,7 @@
     <Compile Include="Assets\PluginsPagages\Oculus\Avatar\Scripts\OvrAvatarBody.cs" />
     <Compile Include="Assets\PluginsPagages\Oculus\SampleFramework\Core\Locomotion\Scripts\TeleportTransitionBlink.cs" />
     <Compile Include="Assets\PluginsPagages\Oculus\Avatar\Samples\SocialStarter\Assets\Scripts\SocialPlatformManager.cs" />
-    <Compile Include="Assets\Scripts\VRPlayerController.cs" />
+    <Compile Include="Assets\Scripts\Scripts\VRPlayerController.cs" />
     <Compile Include="Assets\PluginsPagages\Oculus\SampleFramework\Core\HandsInteraction\Scripts\Tools\PinchStateModule.cs" />
     <Compile Include="Assets\PluginsPagages\Oculus\Avatar\Scripts\OvrAvatarSkinnedMeshRenderPBSComponent.cs" />
     <Compile Include="Assets\PluginsPagages\Oculus\SampleFramework\Core\DistanceGrab\Scripts\PauseOnInputLoss.cs" />
@@ -145,6 +146,7 @@
     <Compile Include="Assets\PluginsPagages\Oculus\Avatar\Samples\SocialStarter\Assets\Scripts\P2PManager.cs" />
     <Compile Include="Assets\PluginsPagages\Oculus\SampleFramework\Core\DebugUI\Scripts\DebugUIBuilder.cs" />
     <Compile Include="Assets\PluginsPagages\Oculus\SampleFramework\Core\Locomotion\Scripts\TeleportInputHandlerTouch.cs" />
+    <Compile Include="Assets\Scripts\Scripts\InputManager.cs" />
     <Compile Include="Assets\PluginsPagages\Oculus\LipSync\Scripts\OVRLipSync.cs" />
     <Compile Include="Assets\PluginsPagages\Oculus\Avatar\Samples\SocialStarter\Assets\Scripts\VoipManager.cs" />
     <Compile Include="Assets\PluginsPagages\Oculus\AudioManager\Scripts\Audio\MinMaxAttribute.cs" />
@@ -152,10 +154,10 @@
     <Compile Include="Assets\PluginsPagages\Oculus\SampleFramework\Core\HandsInteraction\Scripts\ButtonController.cs" />
     <Compile Include="Assets\PluginsPagages\Oculus\SampleFramework\Core\CustomHands\Scripts\Hand.cs" />
     <Compile Include="Assets\PluginsPagages\Oculus\LipSync\Scripts\Helpers\OVRNamedArrayAttribute.cs" />
-    <Compile Include="Assets\Scripts\Saber.cs" />
+    <Compile Include="Assets\Scripts\Scripts\Saber.cs" />
     <Compile Include="Assets\PluginsPagages\Oculus\SampleFramework\Core\Locomotion\Scripts\TeleportOrientationHandler.cs" />
     <Compile Include="Assets\PluginsPagages\Oculus\Avatar\Samples\RemoteLoopback\Scripts\RemoteLoopbackManager.cs" />
-    <Compile Include="Assets\Scripts\VRControllerInput.cs" />
+    <Compile Include="Assets\Scripts\Scripts\VRControllerInput.cs" />
     <Compile Include="Assets\PluginsPagages\Oculus\SampleFramework\Core\Locomotion\Scripts\TeleportTransitionInstant.cs" />
     <Compile Include="Assets\PluginsPagages\Oculus\Avatar\Samples\SocialStarter\Assets\Scripts\RemotePlayer.cs" />
     <Compile Include="Assets\PluginsPagages\Oculus\SampleFramework\Usage\Locomotion\Scripts\LocomotionSampleSupport.cs" />
@@ -165,7 +167,7 @@
     <Compile Include="Assets\PluginsPagages\Oculus\Spatializer\scripts\ONSPAmbisonicsNative.cs" />
     <Compile Include="Assets\PluginsPagages\Oculus\Spatializer\scripts\ONSPPropagationSettings.cs" />
     <Compile Include="Assets\PluginsPagages\Oculus\SampleFramework\Core\Locomotion\Scripts\LocomotionController.cs" />
-    <Compile Include="Assets\Scripts\Cube.cs" />
+    <Compile Include="Assets\Scripts\Scripts\Cube.cs" />
     <Compile Include="Assets\PluginsPagages\Oculus\SampleFramework\Usage\Locomotion\Scripts\CharacterCapsule.cs" />
     <Compile Include="Assets\PluginsPagages\Oculus\SampleFramework\Core\Locomotion\Scripts\TeleportTargetHandlerPhysical.cs" />
     <Compile Include="Assets\PluginsPagages\Oculus\SampleFramework\Usage\HandsTrainExample\Scripts\TrainTrack.cs" />
@@ -173,9 +175,10 @@
     <Compile Include="Assets\PluginsPagages\Oculus\AudioManager\Scripts\Audio\AmbienceEmitter.cs" />
     <Compile Include="Assets\PluginsPagages\Oculus\Spatializer\scripts\helpers\ONSPReflectionZone.cs" />
     <Compile Include="Assets\PluginsPagages\Oculus\Avatar\Scripts\OvrAvatarLocalDriver.cs" />
+    <Compile Include="Assets\Scripts\ControllerCharacteristics.cs" />
     <Compile Include="Assets\PluginsPagages\Oculus\LipSync\Scripts\Helpers\OVRTouchpad.cs" />
     <Compile Include="Assets\PluginsPagages\Oculus\SampleFramework\Core\Locomotion\Scripts\LocomotionTeleport.cs" />
-    <Compile Include="Assets\Scripts\HandPreference.cs" />
+    <Compile Include="Assets\Scripts\Scripts\HandPreference.cs" />
     <Compile Include="Assets\PluginsPagages\Oculus\LipSync\Scripts\Helpers\OVRLipSyncDebugConsole.cs" />
     <Compile Include="Assets\PluginsPagages\Oculus\AudioManager\Scripts\Audio\SoundEmitter.cs" />
     <Compile Include="Assets\PluginsPagages\Oculus\Avatar\Scripts\OvrAvatarBase.cs" />
@@ -195,13 +198,15 @@
     <Compile Include="Assets\PluginsPagages\Oculus\SampleFramework\Core\HandsInteraction\Scripts\Tools\FingerTipPokeTool.cs" />
     <Compile Include="Assets\PluginsPagages\Oculus\Avatar\Samples\GripPoses\Scripts\PoseEditHelper.cs" />
     <Compile Include="Assets\PluginsPagages\Oculus\SampleFramework\Core\HandsInteraction\Scripts\Tools\RayToolView.cs" />
+    <Compile Include="Assets\Scripts\Scripts\VrController.cs" />
     <Compile Include="Assets\PluginsPagages\Oculus\Avatar\Samples\AvatarGallery\Scripts\OvrAvatarTestDriver.cs" />
+    <Compile Include="Assets\Scripts\Scripts\PickupHand.cs" />
     <Compile Include="Assets\PluginsPagages\Oculus\Avatar\Scripts\OvrAvatarDriver.cs" />
     <Compile Include="Assets\PluginsPagages\Oculus\SampleFramework\Usage\HandsTrainExample\Scripts\TrainCarBase.cs" />
     <Compile Include="Assets\PluginsPagages\Oculus\Avatar\Scripts\OvrAvatarComponent.cs" />
     <Compile Include="Assets\PluginsPagages\Oculus\LipSync\Scripts\OVRLipSyncContextTextureFlip.cs" />
     <Compile Include="Assets\PluginsPagages\Oculus\SampleFramework\Core\HandsInteraction\Scripts\Tools\RayTool.cs" />
-    <Compile Include="Assets\Scripts\CubeSpawner.cs" />
+    <Compile Include="Assets\Scripts\Scripts\CubeSpawner.cs" />
     <Compile Include="Assets\PluginsPagages\Oculus\SampleFramework\Core\HandsInteraction\Scripts\Tools\FingerTipPokeToolView.cs" />
     <Compile Include="Assets\PluginsPagages\Oculus\Spatializer\scenes\Standard Assets\Character Controllers\Sources\Scripts\MouseLook.cs" />
     <Compile Include="Assets\PluginsPagages\Oculus\SampleFramework\Core\Locomotion\Scripts\TeleportTargetHandlerNavMesh.cs" />
@@ -220,7 +225,6 @@
      <None Include="Assets\PluginsPagages\Oculus\SampleFramework\Usage\HandsTrainExample\Shaders\XingLightShader.shader" />
      <None Include="Assets\PluginsPagages\Oculus\Avatar\Resources\Materials\AvatarMaterialStateShader.cginc" />
      <None Include="Assets\PluginsPagages\Oculus\SampleFramework\Usage\HandsTrainExample\Shaders\ButtonGlow.shader" />
-     <None Include="Assets\PluginsPagages\Oculus\Spatializer\Plugins\x86\AudioPluginOculusSpatializer.dll" />
      <None Include="Assets\PluginsPagages\Oculus\SampleFramework\Usage\DistanceGrab\Materials\CrosshairZCheat.shader" />
      <None Include="Assets\PluginsPagages\Oculus\Avatar\Resources\Materials\Version1.5\Avatar_Mobile_Loader.shader" />
      <None Include="Assets\PluginsPagages\Oculus\SampleFramework\Usage\HandsTrainExample\Shaders\GradientSkybox.shader" />
@@ -230,12 +234,12 @@
      <None Include="Assets\PluginsPagages\Oculus\Avatar\Resources\Materials\Expressive\Avatar_PC_SingleComponentExpressive.shader" />
      <None Include="Assets\PluginsPagages\Oculus\SampleFramework\Usage\HandsTrainExample\Shaders\OculusSampleTrainPropsShader.shader" />
      <None Include="Assets\PluginsPagages\Oculus\SampleFramework\Usage\DistanceGrab\Materials\ToyCubeWithOutline.shader" />
-     <None Include="Assets\PluginsPagages\Oculus\Spatializer\Plugins\x86_64\AudioPluginOculusSpatializer.dll" />
      <None Include="Assets\PluginsPagages\Oculus\SampleFramework\Core\Locomotion\Materials\ColumnGlow.shader" />
      <None Include="Assets\PluginsPagages\Oculus\Avatar\Resources\Materials\Expressive\Avatar_Mobile_CombinedMeshExpressive.shader" />
      <None Include="Assets\PluginsPagages\Oculus\Avatar\Resources\Materials\Version1.5\Avatar_PC_SingleComponent.shader" />
      <None Include="Assets\PluginsPagages\Oculus\Avatar\Resources\Materials\AvatarSurfaceShaderPBSV2.shader" />
      <None Include="Assets\PluginsPagages\Oculus\Avatar\Resources\Materials\Version1.5\Avatar_Mobile_CombinedMesh.shader" />
+     <None Include="Assets\PluginsPagages\Oculus\Spatializer\Plugins\x86_64\AudioPluginOculusSpatializer.dll" />
      <None Include="Assets\PluginsPagages\Oculus\SampleFramework\Core\Video\Shaders\Multiview Stereo.shader" />
      <None Include="Assets\PluginsPagages\Oculus\SampleFramework\Core\DebugUI\Fonts\Montserrat\OFL.txt" />
      <None Include="Assets\PluginsPagages\Oculus\Avatar\Samples\SocialStarter\README.txt" />
@@ -244,6 +248,7 @@
      <None Include="Assets\PluginsPagages\Oculus\Avatar\Resources\Materials\AvatarPBRV2Simple.shader" />
      <None Include="Assets\PluginsPagages\Oculus\Avatar\Resources\Materials\AvatarSurfaceShaderSelfOccluding.shader" />
      <None Include="Assets\PluginsPagages\Oculus\SampleFramework\Core\HandsInteraction\Shaders\OculusSampleAlphaHandOutline.shader" />
+     <None Include="Assets\PluginsPagages\Oculus\Spatializer\Plugins\x86\AudioPluginOculusSpatializer.dll" />
      <None Include="Assets\PluginsPagages\Oculus\SampleFramework\Usage\HandsTrainExample\Shaders\OculusSampleTrainSmokeShader.shader" />
      <None Include="Assets\PluginsPagages\Oculus\SampleFramework\Usage\OVROverlayCanvas\Shaders\UI Prerendered Opaque.shader" />
      <None Include="Assets\PluginsPagages\Oculus\SampleFramework\Core\Video\Plugins\Android\Audio360\NOTICE.txt" />
