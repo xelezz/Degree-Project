@@ -954,8 +954,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cubes:
-  - {fileID: 8773529306493220719, guid: b6c008ebc0498c24392a34d565f82606, type: 3}
-  - {fileID: 3424482508437726504, guid: 3883a479ba7b7374f8ce836085565215, type: 3}
+  - {fileID: 8345955354147242760, guid: d99a84dc19721b1498e870f63d24cf5a, type: 3}
+  - {fileID: 7099953535053748286, guid: e523f1397cf472c42b44519816dfe1b0, type: 3}
   points:
   - {fileID: 857298899}
   - {fileID: 618458247}
@@ -1122,6 +1122,7 @@ GameObject:
   - component: {fileID: 1464625100}
   - component: {fileID: 1464625099}
   - component: {fileID: 1464625098}
+  - component: {fileID: 1464625101}
   m_Layer: 0
   m_Name: Cube (1)
   m_TagString: Untagged
@@ -1205,6 +1206,22 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1464625096}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1464625101
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1464625096}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b131a261f29eeb949a7ebd46547f5cb5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  layer:
+    serializedVersion: 2
+    m_Bits: 128
+  score: 1
 --- !u!1 &1714579216
 GameObject:
   m_ObjectHideFlags: 0
@@ -1655,6 +1672,7 @@ GameObject:
   - component: {fileID: 1910211754}
   - component: {fileID: 1910211753}
   - component: {fileID: 1910211752}
+  - component: {fileID: 1910211755}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -1738,6 +1756,22 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1910211750}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1910211755
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1910211750}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b131a261f29eeb949a7ebd46547f5cb5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  layer:
+    serializedVersion: 2
+    m_Bits: 64
+  score: 1
 --- !u!1 &2013932629
 GameObject:
   m_ObjectHideFlags: 0

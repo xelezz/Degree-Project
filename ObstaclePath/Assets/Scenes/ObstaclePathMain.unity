@@ -313,6 +313,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 26209799}
+  - component: {fileID: 26209800}
   m_Layer: 0
   m_Name: Controller
   m_TagString: Untagged
@@ -336,6 +337,21 @@ Transform:
   m_Father: {fileID: 388217418}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &26209800
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 26209798}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0864116757f98d40b8683f9a610ef14, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controllerPrefabs: []
+  controllerCharacteristics: 0
+  isRight: 0
 --- !u!1 &388217417
 GameObject:
   m_ObjectHideFlags: 0
@@ -632,7 +648,7 @@ MonoBehaviour:
   m_UpdateTrackingType: 0
   m_EnableInputTracking: 1
   m_EnableInputActions: 1
-  m_ModelPrefab: {fileID: 3542000499177587179, guid: 4f5623f1a9b98194f9f0441b34991d09, type: 3}
+  m_ModelPrefab: {fileID: 0}
   m_ModelTransform: {fileID: 0}
   m_AnimateModel: 0
   m_ModelSelectTransition: 
@@ -783,7 +799,7 @@ MonoBehaviour:
   m_UpdateTrackingType: 0
   m_EnableInputTracking: 1
   m_EnableInputActions: 1
-  m_ModelPrefab: {fileID: 7836137840233409853, guid: 23d94516a9f0c614b9ae8398e4f20790, type: 3}
+  m_ModelPrefab: {fileID: 0}
   m_ModelTransform: {fileID: 0}
   m_AnimateModel: 0
   m_ModelSelectTransition: 
@@ -1449,9 +1465,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: ControllerPrefabs
       objectReference: {fileID: 0}
+    - target: {fileID: 8932553564566960920, guid: 3c9c217d76a55f64494a3acd0ba782a2, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8932553564566960921, guid: 3c9c217d76a55f64494a3acd0ba782a2, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8932553564566960921, guid: 3c9c217d76a55f64494a3acd0ba782a2, type: 3}
       propertyPath: controllerCharacteristics
       value: 320
+      objectReference: {fileID: 0}
+    - target: {fileID: 8932553564566960921, guid: 3c9c217d76a55f64494a3acd0ba782a2, type: 3}
+      propertyPath: controllerPrefabs.Array.size
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8932553564566960921, guid: 3c9c217d76a55f64494a3acd0ba782a2, type: 3}
       propertyPath: leftControllerCharacteristics
@@ -1461,6 +1489,14 @@ PrefabInstance:
       propertyPath: rightControllerCharacteristics
       value: 512
       objectReference: {fileID: 0}
+    - target: {fileID: 8932553564566960921, guid: 3c9c217d76a55f64494a3acd0ba782a2, type: 3}
+      propertyPath: controllerPrefabs.Array.data[2]
+      value: 
+      objectReference: {fileID: 6488555331990261440, guid: 23d94516a9f0c614b9ae8398e4f20790, type: 3}
+    - target: {fileID: 8932553564566960921, guid: 3c9c217d76a55f64494a3acd0ba782a2, type: 3}
+      propertyPath: controllerPrefabs.Array.data[3]
+      value: 
+      objectReference: {fileID: 919132149155446097, guid: ea9d532fa9d367641b7f24cc9c4a368d, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3c9c217d76a55f64494a3acd0ba782a2, type: 3}
 --- !u!4 &4414003998808456748 stripped
@@ -1523,8 +1559,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: ControllerPrefabs
       objectReference: {fileID: 0}
+    - target: {fileID: 8932553564566960920, guid: 3c9c217d76a55f64494a3acd0ba782a2, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8932553564566960921, guid: 3c9c217d76a55f64494a3acd0ba782a2, type: 3}
       propertyPath: isRight
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8932553564566960921, guid: 3c9c217d76a55f64494a3acd0ba782a2, type: 3}
+      propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8932553564566960921, guid: 3c9c217d76a55f64494a3acd0ba782a2, type: 3}
@@ -1532,9 +1576,21 @@ PrefabInstance:
       value: 576
       objectReference: {fileID: 0}
     - target: {fileID: 8932553564566960921, guid: 3c9c217d76a55f64494a3acd0ba782a2, type: 3}
+      propertyPath: controllerPrefabs.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8932553564566960921, guid: 3c9c217d76a55f64494a3acd0ba782a2, type: 3}
       propertyPath: leftControllerCharacteristics
       value: 256
       objectReference: {fileID: 0}
+    - target: {fileID: 8932553564566960921, guid: 3c9c217d76a55f64494a3acd0ba782a2, type: 3}
+      propertyPath: controllerPrefabs.Array.data[1]
+      value: 
+      objectReference: {fileID: 2350848208728180392, guid: 4f5623f1a9b98194f9f0441b34991d09, type: 3}
+    - target: {fileID: 8932553564566960921, guid: 3c9c217d76a55f64494a3acd0ba782a2, type: 3}
+      propertyPath: controllerPrefabs.Array.data[3]
+      value: 
+      objectReference: {fileID: 4141836457638546918, guid: 7b1c7800c6b290f4ead875e9d9a967c4, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3c9c217d76a55f64494a3acd0ba782a2, type: 3}
 --- !u!4 &6182983227047696068 stripped

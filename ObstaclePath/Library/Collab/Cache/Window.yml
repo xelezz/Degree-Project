@@ -107,12 +107,510 @@ MonoBehaviour:
     - Assets/Animations/CustomHandLeft.prefab.meta
     - Assets/Animations/CustomHandRight.prefab
     - Assets/Animations/CustomHandRight.prefab.meta
+    - Assets/AssetsUsed.meta
+    - Assets/AssetsUsed/Material.meta
+    - Assets/AssetsUsed/Prefabs.meta
     - Assets/AssetsUsed/Prefabs/OVRCameraRig Variant.prefab
     - Assets/AssetsUsed/Prefabs/OVRCameraRig Variant.prefab.meta
     - Assets/AssetsUsed/Prefabs/OVRCameraRig.prefab
     - Assets/AssetsUsed/Prefabs/OVRCameraRig.prefab.meta
-    - Assets/Material.meta
+    - Assets/AssetsUsed/Scenes.meta
+    - Assets/AssetsUsed/Scripts.meta
+    - Assets/DisplayScore.cs
+    - Assets/DisplayScore.cs.meta
+    - Assets/Katana.meta
+    - Assets/Katana/Document.pdf
+    - Assets/Katana/Document.pdf.meta
+    - Assets/Katana/Katana.unity
+    - Assets/Katana/Katana.unity.meta
+    - Assets/Katana/KatanaSettings.lighting
+    - Assets/Katana/KatanaSettings.lighting.meta
+    - Assets/Katana/Material.meta
+    - Assets/Katana/Material/Mobile_Katana.mat
+    - Assets/Katana/Material/Mobile_Katana.mat.meta
+    - Assets/Katana/Material/PBR_Katana.mat
+    - Assets/Katana/Material/PBR_Katana.mat.meta
+    - Assets/Katana/Material/Specular_Katana.mat
+    - Assets/Katana/Material/Specular_Katana.mat.meta
+    - Assets/Katana/Mesh.meta
+    - Assets/Katana/Mesh/OBJ.meta
+    - Assets/Katana/Mesh/OBJ/Katana_LODA.obj
+    - Assets/Katana/Mesh/OBJ/Katana_LODA.obj.meta
+    - Assets/Katana/Mesh/OBJ/Katana_LODB.obj
+    - Assets/Katana/Mesh/OBJ/Katana_LODB.obj.meta
+    - Assets/Katana/Mesh/OBJ/Katana_LODC.obj
+    - Assets/Katana/Mesh/OBJ/Katana_LODC.obj.meta
+    - Assets/Katana/Mesh/OBJ/Material.meta
+    - Assets/Katana/Mesh/OBJ/Material/Katana_LODA.mat
+    - Assets/Katana/Mesh/OBJ/Material/Katana_LODA.mat.meta
+    - Assets/Katana/Mesh/OBJ/Material/Katana_LODB.mat
+    - Assets/Katana/Mesh/OBJ/Material/Katana_LODB.mat.meta
+    - Assets/Katana/Mesh/OBJ/Material/Katana_LODC.mat
+    - Assets/Katana/Mesh/OBJ/Material/Katana_LODC.mat.meta
+    - Assets/Katana/Mesh/OBJ/Materials.meta
+    - Assets/Katana/Mesh/OBJ/Materials/Katana_LODAMat.mat
+    - Assets/Katana/Mesh/OBJ/Materials/Katana_LODAMat.mat.meta
+    - Assets/Katana/Mesh/OBJ/Materials/Katana_LODBMat.mat
+    - Assets/Katana/Mesh/OBJ/Materials/Katana_LODBMat.mat.meta
+    - Assets/Katana/Mesh/OBJ/Materials/Katana_LODCMat.mat
+    - Assets/Katana/Mesh/OBJ/Materials/Katana_LODCMat.mat.meta
+    - Assets/Katana/Prefab.meta
+    - Assets/Katana/Prefab/LOD.meta
+    - Assets/Katana/Prefab/LOD/Mobile.meta
+    - Assets/Katana/Prefab/LOD/Mobile/Katana_LOD_Mobile.prefab
+    - Assets/Katana/Prefab/LOD/Mobile/Katana_LOD_Mobile.prefab.meta
+    - Assets/Katana/Prefab/LOD/PBR.meta
+    - Assets/Katana/Prefab/LOD/PBR/Katana_LOD_PBR.prefab
+    - Assets/Katana/Prefab/LOD/PBR/Katana_LOD_PBR.prefab.meta
+    - Assets/Katana/Prefab/LOD/Specular.meta
+    - Assets/Katana/Prefab/LOD/Specular/Katana_LOD_Specular.prefab
+    - Assets/Katana/Prefab/LOD/Specular/Katana_LOD_Specular.prefab.meta
+    - Assets/Katana/Prefab/Mobile.meta
+    - Assets/Katana/Prefab/Mobile/Katana_LODA.prefab
+    - Assets/Katana/Prefab/Mobile/Katana_LODA.prefab.meta
+    - Assets/Katana/Prefab/Mobile/Katana_LODB.prefab
+    - Assets/Katana/Prefab/Mobile/Katana_LODB.prefab.meta
+    - Assets/Katana/Prefab/Mobile/Katana_LODC.prefab
+    - Assets/Katana/Prefab/Mobile/Katana_LODC.prefab.meta
+    - Assets/Katana/Prefab/PBR.meta
+    - Assets/Katana/Prefab/PBR/Katana_LODA.prefab
+    - Assets/Katana/Prefab/PBR/Katana_LODA.prefab.meta
+    - Assets/Katana/Prefab/PBR/Katana_LODB.prefab
+    - Assets/Katana/Prefab/PBR/Katana_LODB.prefab.meta
+    - Assets/Katana/Prefab/PBR/Katana_LODC.prefab
+    - Assets/Katana/Prefab/PBR/Katana_LODC.prefab.meta
+    - Assets/Katana/Prefab/Specular.meta
+    - Assets/Katana/Prefab/Specular/Katana_LODA.prefab
+    - Assets/Katana/Prefab/Specular/Katana_LODA.prefab.meta
+    - Assets/Katana/Prefab/Specular/Katana_LODB.prefab
+    - Assets/Katana/Prefab/Specular/Katana_LODB.prefab.meta
+    - Assets/Katana/Prefab/Specular/Katana_LODC.prefab
+    - Assets/Katana/Prefab/Specular/Katana_LODC.prefab.meta
+    - Assets/Katana/Texture.meta
+    - Assets/Katana/Texture/PNG.meta
+    - Assets/Katana/Texture/PNG/Katana.png
+    - Assets/Katana/Texture/PNG/Katana.png.meta
+    - Assets/Katana/Texture/PNG/Katana_AO.png
+    - Assets/Katana/Texture/PNG/Katana_AO.png.meta
+    - Assets/Katana/Texture/PNG/Katana_Albedo.png
+    - Assets/Katana/Texture/PNG/Katana_Albedo.png.meta
+    - Assets/Katana/Texture/PNG/Katana_Diffuse.png
+    - Assets/Katana/Texture/PNG/Katana_Diffuse.png.meta
+    - Assets/Katana/Texture/PNG/Katana_Gloss.png
+    - Assets/Katana/Texture/PNG/Katana_Gloss.png.meta
+    - Assets/Katana/Texture/PNG/Katana_Metallic.png
+    - Assets/Katana/Texture/PNG/Katana_Metallic.png.meta
+    - Assets/Katana/Texture/PNG/Katana_Normal_DirectX.png
+    - Assets/Katana/Texture/PNG/Katana_Normal_DirectX.png.meta
+    - Assets/Katana/Texture/PNG/Katana_Normal_OpenGL.png
+    - Assets/Katana/Texture/PNG/Katana_Normal_OpenGL.png.meta
+    - Assets/Katana/Texture/PNG/Katana_Roughness.png
+    - Assets/Katana/Texture/PNG/Katana_Roughness.png.meta
+    - Assets/Katana/Texture/PNG/Katana_Specular.png
+    - Assets/Katana/Texture/PNG/Katana_Specular.png.meta
+    - Assets/Katana/Texture/TGA.meta
+    - Assets/Katana/Texture/TGA/Katana_Metallic_Gloss.tga
+    - Assets/Katana/Texture/TGA/Katana_Metallic_Gloss.tga.meta
+    - Assets/Katana/Texture/TGA/Katana_Metallic_Roughness.tga
+    - Assets/Katana/Texture/TGA/Katana_Metallic_Roughness.tga.meta
+    - Assets/Katana/Texture/TGA/Katana_Specular_Gloss.tga
+    - Assets/Katana/Texture/TGA/Katana_Specular_Gloss.tga.meta
+    - Assets/Materials/Cutmat.mat
+    - Assets/Materials/Cutmat.mat.meta
+    - Assets/Materials/GreenMat.mat
+    - Assets/Materials/GreenMat.mat.meta
+    - Assets/Materials/OrangeMat.mat
+    - Assets/Materials/OrangeMat.mat.meta
+    - Assets/Materials/YellowMat.mat
+    - Assets/Materials/YellowMat.mat.meta
+    - Assets/PluginsPagages/Controllers.meta
+    - Assets/PluginsPagages/Controllers/generic_controller.meta
+    - Assets/PluginsPagages/Controllers/generic_controller/generic_controller.mtl
+    - Assets/PluginsPagages/Controllers/generic_controller/generic_controller.mtl.meta
+    - Assets/PluginsPagages/Controllers/generic_controller/generic_controller.obj
+    - Assets/PluginsPagages/Controllers/generic_controller/generic_controller.obj.meta
+    - Assets/PluginsPagages/Controllers/generic_controller/generic_controller.tga
+    - Assets/PluginsPagages/Controllers/generic_controller/generic_controller.tga.meta
+    - Assets/PluginsPagages/Controllers/oculus_quest2_controller_left.meta
+    - Assets/PluginsPagages/Controllers/oculus_quest2_controller_left/oculus_quest2_controller_left.json
+    - Assets/PluginsPagages/Controllers/oculus_quest2_controller_left/oculus_quest2_controller_left.json.meta
+    - Assets/PluginsPagages/Controllers/oculus_quest2_controller_left/oculus_quest2_controller_left.mtl
+    - Assets/PluginsPagages/Controllers/oculus_quest2_controller_left/oculus_quest2_controller_left.mtl.meta
+    - Assets/PluginsPagages/Controllers/oculus_quest2_controller_left/oculus_quest2_controller_left.obj
+    - Assets/PluginsPagages/Controllers/oculus_quest2_controller_left/oculus_quest2_controller_left.obj.meta
+    - Assets/PluginsPagages/Controllers/oculus_quest2_controller_left/oculus_quest2_controller_left.png
+    - Assets/PluginsPagages/Controllers/oculus_quest2_controller_left/oculus_quest2_controller_left.png.meta
+    - Assets/PluginsPagages/Controllers/oculus_quest2_controller_left/oculus_quest2_controller_left_body.mtl
+    - Assets/PluginsPagages/Controllers/oculus_quest2_controller_left/oculus_quest2_controller_left_body.mtl.meta
+    - Assets/PluginsPagages/Controllers/oculus_quest2_controller_left/oculus_quest2_controller_left_body.obj
+    - Assets/PluginsPagages/Controllers/oculus_quest2_controller_left/oculus_quest2_controller_left_body.obj.meta
+    - Assets/PluginsPagages/Controllers/oculus_quest2_controller_left/oculus_quest2_controller_left_button_menu.mtl
+    - Assets/PluginsPagages/Controllers/oculus_quest2_controller_left/oculus_quest2_controller_left_button_menu.mtl.meta
+    - Assets/PluginsPagages/Controllers/oculus_quest2_controller_left/oculus_quest2_controller_left_button_menu.obj
+    - Assets/PluginsPagages/Controllers/oculus_quest2_controller_left/oculus_quest2_controller_left_button_menu.obj.meta
+    - Assets/PluginsPagages/Controllers/oculus_quest2_controller_left/oculus_quest2_controller_left_button_x.mtl
+    - Assets/PluginsPagages/Controllers/oculus_quest2_controller_left/oculus_quest2_controller_left_button_x.mtl.meta
+    - Assets/PluginsPagages/Controllers/oculus_quest2_controller_left/oculus_quest2_controller_left_button_x.obj
+    - Assets/PluginsPagages/Controllers/oculus_quest2_controller_left/oculus_quest2_controller_left_button_x.obj.meta
+    - Assets/PluginsPagages/Controllers/oculus_quest2_controller_left/oculus_quest2_controller_left_button_y.mtl
+    - Assets/PluginsPagages/Controllers/oculus_quest2_controller_left/oculus_quest2_controller_left_button_y.mtl.meta
+    - Assets/PluginsPagages/Controllers/oculus_quest2_controller_left/oculus_quest2_controller_left_button_y.obj
+    - Assets/PluginsPagages/Controllers/oculus_quest2_controller_left/oculus_quest2_controller_left_button_y.obj.meta
+    - Assets/PluginsPagages/Controllers/oculus_quest2_controller_left/oculus_quest2_controller_left_grip.mtl
+    - Assets/PluginsPagages/Controllers/oculus_quest2_controller_left/oculus_quest2_controller_left_grip.mtl.meta
+    - Assets/PluginsPagages/Controllers/oculus_quest2_controller_left/oculus_quest2_controller_left_grip.obj
+    - Assets/PluginsPagages/Controllers/oculus_quest2_controller_left/oculus_quest2_controller_left_grip.obj.meta
+    - Assets/PluginsPagages/Controllers/oculus_quest2_controller_left/oculus_quest2_controller_left_normal.png
+    - Assets/PluginsPagages/Controllers/oculus_quest2_controller_left/oculus_quest2_controller_left_normal.png.meta
+    - Assets/PluginsPagages/Controllers/oculus_quest2_controller_left/oculus_quest2_controller_left_thumbnail.png
+    - Assets/PluginsPagages/Controllers/oculus_quest2_controller_left/oculus_quest2_controller_left_thumbnail.png.meta
+    - Assets/PluginsPagages/Controllers/oculus_quest2_controller_left/oculus_quest2_controller_left_thumbstick.mtl
+    - Assets/PluginsPagages/Controllers/oculus_quest2_controller_left/oculus_quest2_controller_left_thumbstick.mtl.meta
+    - Assets/PluginsPagages/Controllers/oculus_quest2_controller_left/oculus_quest2_controller_left_thumbstick.obj
+    - Assets/PluginsPagages/Controllers/oculus_quest2_controller_left/oculus_quest2_controller_left_thumbstick.obj.meta
+    - Assets/PluginsPagages/Controllers/oculus_quest2_controller_left/oculus_quest2_controller_left_trigger.mtl
+    - Assets/PluginsPagages/Controllers/oculus_quest2_controller_left/oculus_quest2_controller_left_trigger.mtl.meta
+    - Assets/PluginsPagages/Controllers/oculus_quest2_controller_left/oculus_quest2_controller_left_trigger.obj
+    - Assets/PluginsPagages/Controllers/oculus_quest2_controller_left/oculus_quest2_controller_left_trigger.obj.meta
+    - Assets/PluginsPagages/Controllers/oculus_quest2_controller_right.meta
+    - Assets/PluginsPagages/Controllers/oculus_quest2_controller_right/oculus_quest2_controller_right.json
+    - Assets/PluginsPagages/Controllers/oculus_quest2_controller_right/oculus_quest2_controller_right.json.meta
+    - Assets/PluginsPagages/Controllers/oculus_quest2_controller_right/oculus_quest2_controller_right.mtl
+    - Assets/PluginsPagages/Controllers/oculus_quest2_controller_right/oculus_quest2_controller_right.mtl.meta
+    - Assets/PluginsPagages/Controllers/oculus_quest2_controller_right/oculus_quest2_controller_right.obj
+    - Assets/PluginsPagages/Controllers/oculus_quest2_controller_right/oculus_quest2_controller_right.obj.meta
+    - Assets/PluginsPagages/Controllers/oculus_quest2_controller_right/oculus_quest2_controller_right.png
+    - Assets/PluginsPagages/Controllers/oculus_quest2_controller_right/oculus_quest2_controller_right.png.meta
+    - Assets/PluginsPagages/Controllers/oculus_quest2_controller_right/oculus_quest2_controller_right_body.mtl
+    - Assets/PluginsPagages/Controllers/oculus_quest2_controller_right/oculus_quest2_controller_right_body.mtl.meta
+    - Assets/PluginsPagages/Controllers/oculus_quest2_controller_right/oculus_quest2_controller_right_body.obj
+    - Assets/PluginsPagages/Controllers/oculus_quest2_controller_right/oculus_quest2_controller_right_body.obj.meta
+    - Assets/PluginsPagages/Controllers/oculus_quest2_controller_right/oculus_quest2_controller_right_button_a.mtl
+    - Assets/PluginsPagages/Controllers/oculus_quest2_controller_right/oculus_quest2_controller_right_button_a.mtl.meta
+    - Assets/PluginsPagages/Controllers/oculus_quest2_controller_right/oculus_quest2_controller_right_button_a.obj
+    - Assets/PluginsPagages/Controllers/oculus_quest2_controller_right/oculus_quest2_controller_right_button_a.obj.meta
+    - Assets/PluginsPagages/Controllers/oculus_quest2_controller_right/oculus_quest2_controller_right_button_b.mtl
+    - Assets/PluginsPagages/Controllers/oculus_quest2_controller_right/oculus_quest2_controller_right_button_b.mtl.meta
+    - Assets/PluginsPagages/Controllers/oculus_quest2_controller_right/oculus_quest2_controller_right_button_b.obj
+    - Assets/PluginsPagages/Controllers/oculus_quest2_controller_right/oculus_quest2_controller_right_button_b.obj.meta
+    - Assets/PluginsPagages/Controllers/oculus_quest2_controller_right/oculus_quest2_controller_right_button_menu.mtl
+    - Assets/PluginsPagages/Controllers/oculus_quest2_controller_right/oculus_quest2_controller_right_button_menu.mtl.meta
+    - Assets/PluginsPagages/Controllers/oculus_quest2_controller_right/oculus_quest2_controller_right_button_menu.obj
+    - Assets/PluginsPagages/Controllers/oculus_quest2_controller_right/oculus_quest2_controller_right_button_menu.obj.meta
+    - Assets/PluginsPagages/Controllers/oculus_quest2_controller_right/oculus_quest2_controller_right_grip.mtl
+    - Assets/PluginsPagages/Controllers/oculus_quest2_controller_right/oculus_quest2_controller_right_grip.mtl.meta
+    - Assets/PluginsPagages/Controllers/oculus_quest2_controller_right/oculus_quest2_controller_right_grip.obj
+    - Assets/PluginsPagages/Controllers/oculus_quest2_controller_right/oculus_quest2_controller_right_grip.obj.meta
+    - Assets/PluginsPagages/Controllers/oculus_quest2_controller_right/oculus_quest2_controller_right_normal.png
+    - Assets/PluginsPagages/Controllers/oculus_quest2_controller_right/oculus_quest2_controller_right_normal.png.meta
+    - Assets/PluginsPagages/Controllers/oculus_quest2_controller_right/oculus_quest2_controller_right_thumbnail.png
+    - Assets/PluginsPagages/Controllers/oculus_quest2_controller_right/oculus_quest2_controller_right_thumbnail.png.meta
+    - Assets/PluginsPagages/Controllers/oculus_quest2_controller_right/oculus_quest2_controller_right_thumbstick.mtl
+    - Assets/PluginsPagages/Controllers/oculus_quest2_controller_right/oculus_quest2_controller_right_thumbstick.mtl.meta
+    - Assets/PluginsPagages/Controllers/oculus_quest2_controller_right/oculus_quest2_controller_right_thumbstick.obj
+    - Assets/PluginsPagages/Controllers/oculus_quest2_controller_right/oculus_quest2_controller_right_thumbstick.obj.meta
+    - Assets/PluginsPagages/Controllers/oculus_quest2_controller_right/oculus_quest2_controller_right_trigger.mtl
+    - Assets/PluginsPagages/Controllers/oculus_quest2_controller_right/oculus_quest2_controller_right_trigger.mtl.meta
+    - Assets/PluginsPagages/Controllers/oculus_quest2_controller_right/oculus_quest2_controller_right_trigger.obj
+    - Assets/PluginsPagages/Controllers/oculus_quest2_controller_right/oculus_quest2_controller_right_trigger.obj.meta
+    - Assets/PluginsPagages/Controllers/oculus_quest_controller_left.meta
+    - Assets/PluginsPagages/Controllers/oculus_quest_controller_left/body.mtl
+    - Assets/PluginsPagages/Controllers/oculus_quest_controller_left/body.mtl.meta
+    - Assets/PluginsPagages/Controllers/oculus_quest_controller_left/body.obj
+    - Assets/PluginsPagages/Controllers/oculus_quest_controller_left/body.obj.meta
+    - Assets/PluginsPagages/Controllers/oculus_quest_controller_left/button_enter.mtl
+    - Assets/PluginsPagages/Controllers/oculus_quest_controller_left/button_enter.mtl.meta
+    - Assets/PluginsPagages/Controllers/oculus_quest_controller_left/button_enter.obj
+    - Assets/PluginsPagages/Controllers/oculus_quest_controller_left/button_enter.obj.meta
+    - Assets/PluginsPagages/Controllers/oculus_quest_controller_left/button_grip.mtl
+    - Assets/PluginsPagages/Controllers/oculus_quest_controller_left/button_grip.mtl.meta
+    - Assets/PluginsPagages/Controllers/oculus_quest_controller_left/button_grip.obj
+    - Assets/PluginsPagages/Controllers/oculus_quest_controller_left/button_grip.obj.meta
+    - Assets/PluginsPagages/Controllers/oculus_quest_controller_left/button_x.mtl
+    - Assets/PluginsPagages/Controllers/oculus_quest_controller_left/button_x.mtl.meta
+    - Assets/PluginsPagages/Controllers/oculus_quest_controller_left/button_x.obj
+    - Assets/PluginsPagages/Controllers/oculus_quest_controller_left/button_x.obj.meta
+    - Assets/PluginsPagages/Controllers/oculus_quest_controller_left/button_y.mtl
+    - Assets/PluginsPagages/Controllers/oculus_quest_controller_left/button_y.mtl.meta
+    - Assets/PluginsPagages/Controllers/oculus_quest_controller_left/button_y.obj
+    - Assets/PluginsPagages/Controllers/oculus_quest_controller_left/button_y.obj.meta
+    - Assets/PluginsPagages/Controllers/oculus_quest_controller_left/left_diff.png
+    - Assets/PluginsPagages/Controllers/oculus_quest_controller_left/left_diff.png.meta
+    - Assets/PluginsPagages/Controllers/oculus_quest_controller_left/left_spec.png
+    - Assets/PluginsPagages/Controllers/oculus_quest_controller_left/left_spec.png.meta
+    - Assets/PluginsPagages/Controllers/oculus_quest_controller_left/oculus_quest_controller_left.json
+    - Assets/PluginsPagages/Controllers/oculus_quest_controller_left/oculus_quest_controller_left.json.meta
+    - Assets/PluginsPagages/Controllers/oculus_quest_controller_left/oculus_quest_controller_left.mtl
+    - Assets/PluginsPagages/Controllers/oculus_quest_controller_left/oculus_quest_controller_left.mtl.meta
+    - Assets/PluginsPagages/Controllers/oculus_quest_controller_left/oculus_quest_controller_left.obj
+    - Assets/PluginsPagages/Controllers/oculus_quest_controller_left/oculus_quest_controller_left.obj.meta
+    - Assets/PluginsPagages/Controllers/oculus_quest_controller_left/oculus_quest_controller_left_thumbnail.png
+    - Assets/PluginsPagages/Controllers/oculus_quest_controller_left/oculus_quest_controller_left_thumbnail.png.meta
+    - Assets/PluginsPagages/Controllers/oculus_quest_controller_left/thumbstick.mtl
+    - Assets/PluginsPagages/Controllers/oculus_quest_controller_left/thumbstick.mtl.meta
+    - Assets/PluginsPagages/Controllers/oculus_quest_controller_left/thumbstick.obj
+    - Assets/PluginsPagages/Controllers/oculus_quest_controller_left/thumbstick.obj.meta
+    - Assets/PluginsPagages/Controllers/oculus_quest_controller_left/trigger.mtl
+    - Assets/PluginsPagages/Controllers/oculus_quest_controller_left/trigger.mtl.meta
+    - Assets/PluginsPagages/Controllers/oculus_quest_controller_left/trigger.obj
+    - Assets/PluginsPagages/Controllers/oculus_quest_controller_left/trigger.obj.meta
+    - Assets/PluginsPagages/Controllers/oculus_quest_controller_right.meta
+    - Assets/PluginsPagages/Controllers/oculus_quest_controller_right/body.mtl
+    - Assets/PluginsPagages/Controllers/oculus_quest_controller_right/body.mtl.meta
+    - Assets/PluginsPagages/Controllers/oculus_quest_controller_right/body.obj
+    - Assets/PluginsPagages/Controllers/oculus_quest_controller_right/body.obj.meta
+    - Assets/PluginsPagages/Controllers/oculus_quest_controller_right/button_a.mtl
+    - Assets/PluginsPagages/Controllers/oculus_quest_controller_right/button_a.mtl.meta
+    - Assets/PluginsPagages/Controllers/oculus_quest_controller_right/button_a.obj
+    - Assets/PluginsPagages/Controllers/oculus_quest_controller_right/button_a.obj.meta
+    - Assets/PluginsPagages/Controllers/oculus_quest_controller_right/button_b.mtl
+    - Assets/PluginsPagages/Controllers/oculus_quest_controller_right/button_b.mtl.meta
+    - Assets/PluginsPagages/Controllers/oculus_quest_controller_right/button_b.obj
+    - Assets/PluginsPagages/Controllers/oculus_quest_controller_right/button_b.obj.meta
+    - Assets/PluginsPagages/Controllers/oculus_quest_controller_right/button_enter.mtl
+    - Assets/PluginsPagages/Controllers/oculus_quest_controller_right/button_enter.mtl.meta
+    - Assets/PluginsPagages/Controllers/oculus_quest_controller_right/button_enter.obj
+    - Assets/PluginsPagages/Controllers/oculus_quest_controller_right/button_enter.obj.meta
+    - Assets/PluginsPagages/Controllers/oculus_quest_controller_right/button_grip.mtl
+    - Assets/PluginsPagages/Controllers/oculus_quest_controller_right/button_grip.mtl.meta
+    - Assets/PluginsPagages/Controllers/oculus_quest_controller_right/button_grip.obj
+    - Assets/PluginsPagages/Controllers/oculus_quest_controller_right/button_grip.obj.meta
+    - Assets/PluginsPagages/Controllers/oculus_quest_controller_right/oculus_quest_controller_right.json
+    - Assets/PluginsPagages/Controllers/oculus_quest_controller_right/oculus_quest_controller_right.json.meta
+    - Assets/PluginsPagages/Controllers/oculus_quest_controller_right/oculus_quest_controller_right.mtl
+    - Assets/PluginsPagages/Controllers/oculus_quest_controller_right/oculus_quest_controller_right.mtl.meta
+    - Assets/PluginsPagages/Controllers/oculus_quest_controller_right/oculus_quest_controller_right.obj
+    - Assets/PluginsPagages/Controllers/oculus_quest_controller_right/oculus_quest_controller_right.obj.meta
+    - Assets/PluginsPagages/Controllers/oculus_quest_controller_right/oculus_quest_controller_right_thumbnail.png
+    - Assets/PluginsPagages/Controllers/oculus_quest_controller_right/oculus_quest_controller_right_thumbnail.png.meta
+    - Assets/PluginsPagages/Controllers/oculus_quest_controller_right/right_diff.png
+    - Assets/PluginsPagages/Controllers/oculus_quest_controller_right/right_diff.png.meta
+    - Assets/PluginsPagages/Controllers/oculus_quest_controller_right/right_spec.png
+    - Assets/PluginsPagages/Controllers/oculus_quest_controller_right/right_spec.png.meta
+    - Assets/PluginsPagages/Controllers/oculus_quest_controller_right/thumbstick.mtl
+    - Assets/PluginsPagages/Controllers/oculus_quest_controller_right/thumbstick.mtl.meta
+    - Assets/PluginsPagages/Controllers/oculus_quest_controller_right/thumbstick.obj
+    - Assets/PluginsPagages/Controllers/oculus_quest_controller_right/thumbstick.obj.meta
+    - Assets/PluginsPagages/Controllers/oculus_quest_controller_right/trigger.mtl
+    - Assets/PluginsPagages/Controllers/oculus_quest_controller_right/trigger.mtl.meta
+    - Assets/PluginsPagages/Controllers/oculus_quest_controller_right/trigger.obj
+    - Assets/PluginsPagages/Controllers/oculus_quest_controller_right/trigger.obj.meta
+    - Assets/PluginsPagages/Controllers/oculus_rifts_controller_left.meta
+    - Assets/PluginsPagages/Controllers/oculus_rifts_controller_left/body.mtl
+    - Assets/PluginsPagages/Controllers/oculus_rifts_controller_left/body.mtl.meta
+    - Assets/PluginsPagages/Controllers/oculus_rifts_controller_left/body.obj
+    - Assets/PluginsPagages/Controllers/oculus_rifts_controller_left/body.obj.meta
+    - Assets/PluginsPagages/Controllers/oculus_rifts_controller_left/button_enter.mtl
+    - Assets/PluginsPagages/Controllers/oculus_rifts_controller_left/button_enter.mtl.meta
+    - Assets/PluginsPagages/Controllers/oculus_rifts_controller_left/button_enter.obj
+    - Assets/PluginsPagages/Controllers/oculus_rifts_controller_left/button_enter.obj.meta
+    - Assets/PluginsPagages/Controllers/oculus_rifts_controller_left/button_grip.mtl
+    - Assets/PluginsPagages/Controllers/oculus_rifts_controller_left/button_grip.mtl.meta
+    - Assets/PluginsPagages/Controllers/oculus_rifts_controller_left/button_grip.obj
+    - Assets/PluginsPagages/Controllers/oculus_rifts_controller_left/button_grip.obj.meta
+    - Assets/PluginsPagages/Controllers/oculus_rifts_controller_left/button_x.mtl
+    - Assets/PluginsPagages/Controllers/oculus_rifts_controller_left/button_x.mtl.meta
+    - Assets/PluginsPagages/Controllers/oculus_rifts_controller_left/button_x.obj
+    - Assets/PluginsPagages/Controllers/oculus_rifts_controller_left/button_x.obj.meta
+    - Assets/PluginsPagages/Controllers/oculus_rifts_controller_left/button_y.mtl
+    - Assets/PluginsPagages/Controllers/oculus_rifts_controller_left/button_y.mtl.meta
+    - Assets/PluginsPagages/Controllers/oculus_rifts_controller_left/button_y.obj
+    - Assets/PluginsPagages/Controllers/oculus_rifts_controller_left/button_y.obj.meta
+    - Assets/PluginsPagages/Controllers/oculus_rifts_controller_left/left_diff.png
+    - Assets/PluginsPagages/Controllers/oculus_rifts_controller_left/left_diff.png.meta
+    - Assets/PluginsPagages/Controllers/oculus_rifts_controller_left/left_spec.png
+    - Assets/PluginsPagages/Controllers/oculus_rifts_controller_left/left_spec.png.meta
+    - Assets/PluginsPagages/Controllers/oculus_rifts_controller_left/oculus_rifts_controller_left.json
+    - Assets/PluginsPagages/Controllers/oculus_rifts_controller_left/oculus_rifts_controller_left.json.meta
+    - Assets/PluginsPagages/Controllers/oculus_rifts_controller_left/oculus_rifts_controller_left.mtl
+    - Assets/PluginsPagages/Controllers/oculus_rifts_controller_left/oculus_rifts_controller_left.mtl.meta
+    - Assets/PluginsPagages/Controllers/oculus_rifts_controller_left/oculus_rifts_controller_left.obj
+    - Assets/PluginsPagages/Controllers/oculus_rifts_controller_left/oculus_rifts_controller_left.obj.meta
+    - Assets/PluginsPagages/Controllers/oculus_rifts_controller_left/oculus_rifts_controller_left_thumbnail.png
+    - Assets/PluginsPagages/Controllers/oculus_rifts_controller_left/oculus_rifts_controller_left_thumbnail.png.meta
+    - Assets/PluginsPagages/Controllers/oculus_rifts_controller_left/thumbstick.mtl
+    - Assets/PluginsPagages/Controllers/oculus_rifts_controller_left/thumbstick.mtl.meta
+    - Assets/PluginsPagages/Controllers/oculus_rifts_controller_left/thumbstick.obj
+    - Assets/PluginsPagages/Controllers/oculus_rifts_controller_left/thumbstick.obj.meta
+    - Assets/PluginsPagages/Controllers/oculus_rifts_controller_left/trigger.mtl
+    - Assets/PluginsPagages/Controllers/oculus_rifts_controller_left/trigger.mtl.meta
+    - Assets/PluginsPagages/Controllers/oculus_rifts_controller_left/trigger.obj
+    - Assets/PluginsPagages/Controllers/oculus_rifts_controller_left/trigger.obj.meta
+    - Assets/PluginsPagages/Controllers/oculus_rifts_controller_right.meta
+    - Assets/PluginsPagages/Controllers/oculus_rifts_controller_right/body.mtl
+    - Assets/PluginsPagages/Controllers/oculus_rifts_controller_right/body.mtl.meta
+    - Assets/PluginsPagages/Controllers/oculus_rifts_controller_right/body.obj
+    - Assets/PluginsPagages/Controllers/oculus_rifts_controller_right/body.obj.meta
+    - Assets/PluginsPagages/Controllers/oculus_rifts_controller_right/button_a.mtl
+    - Assets/PluginsPagages/Controllers/oculus_rifts_controller_right/button_a.mtl.meta
+    - Assets/PluginsPagages/Controllers/oculus_rifts_controller_right/button_a.obj
+    - Assets/PluginsPagages/Controllers/oculus_rifts_controller_right/button_a.obj.meta
+    - Assets/PluginsPagages/Controllers/oculus_rifts_controller_right/button_b.mtl
+    - Assets/PluginsPagages/Controllers/oculus_rifts_controller_right/button_b.mtl.meta
+    - Assets/PluginsPagages/Controllers/oculus_rifts_controller_right/button_b.obj
+    - Assets/PluginsPagages/Controllers/oculus_rifts_controller_right/button_b.obj.meta
+    - Assets/PluginsPagages/Controllers/oculus_rifts_controller_right/button_enter.mtl
+    - Assets/PluginsPagages/Controllers/oculus_rifts_controller_right/button_enter.mtl.meta
+    - Assets/PluginsPagages/Controllers/oculus_rifts_controller_right/button_enter.obj
+    - Assets/PluginsPagages/Controllers/oculus_rifts_controller_right/button_enter.obj.meta
+    - Assets/PluginsPagages/Controllers/oculus_rifts_controller_right/button_grip.mtl
+    - Assets/PluginsPagages/Controllers/oculus_rifts_controller_right/button_grip.mtl.meta
+    - Assets/PluginsPagages/Controllers/oculus_rifts_controller_right/button_grip.obj
+    - Assets/PluginsPagages/Controllers/oculus_rifts_controller_right/button_grip.obj.meta
+    - Assets/PluginsPagages/Controllers/oculus_rifts_controller_right/oculus_rifts_controller_right.json
+    - Assets/PluginsPagages/Controllers/oculus_rifts_controller_right/oculus_rifts_controller_right.json.meta
+    - Assets/PluginsPagages/Controllers/oculus_rifts_controller_right/oculus_rifts_controller_right.mtl
+    - Assets/PluginsPagages/Controllers/oculus_rifts_controller_right/oculus_rifts_controller_right.mtl.meta
+    - Assets/PluginsPagages/Controllers/oculus_rifts_controller_right/oculus_rifts_controller_right.obj
+    - Assets/PluginsPagages/Controllers/oculus_rifts_controller_right/oculus_rifts_controller_right.obj.meta
+    - Assets/PluginsPagages/Controllers/oculus_rifts_controller_right/oculus_rifts_controller_right_thumbnail.png
+    - Assets/PluginsPagages/Controllers/oculus_rifts_controller_right/oculus_rifts_controller_right_thumbnail.png.meta
+    - Assets/PluginsPagages/Controllers/oculus_rifts_controller_right/right_diff.png
+    - Assets/PluginsPagages/Controllers/oculus_rifts_controller_right/right_diff.png.meta
+    - Assets/PluginsPagages/Controllers/oculus_rifts_controller_right/right_spec.png
+    - Assets/PluginsPagages/Controllers/oculus_rifts_controller_right/right_spec.png.meta
+    - Assets/PluginsPagages/Controllers/oculus_rifts_controller_right/thumbstick.mtl
+    - Assets/PluginsPagages/Controllers/oculus_rifts_controller_right/thumbstick.mtl.meta
+    - Assets/PluginsPagages/Controllers/oculus_rifts_controller_right/thumbstick.obj
+    - Assets/PluginsPagages/Controllers/oculus_rifts_controller_right/thumbstick.obj.meta
+    - Assets/PluginsPagages/Controllers/oculus_rifts_controller_right/trigger.mtl
+    - Assets/PluginsPagages/Controllers/oculus_rifts_controller_right/trigger.mtl.meta
+    - Assets/PluginsPagages/Controllers/oculus_rifts_controller_right/trigger.obj
+    - Assets/PluginsPagages/Controllers/oculus_rifts_controller_right/trigger.obj.meta
+    - Assets/PluginsPagages/Controllers/vr_glove.meta
+    - Assets/PluginsPagages/Controllers/vr_glove/vr_glove_left_model.fbx
+    - Assets/PluginsPagages/Controllers/vr_glove/vr_glove_left_model.fbx.meta
+    - Assets/PluginsPagages/Controllers/vr_glove/vr_glove_left_model.glb
+    - Assets/PluginsPagages/Controllers/vr_glove/vr_glove_left_model.glb.meta
+    - Assets/PluginsPagages/Controllers/vr_glove/vr_glove_left_model_slim.fbx
+    - Assets/PluginsPagages/Controllers/vr_glove/vr_glove_left_model_slim.fbx.meta
+    - Assets/PluginsPagages/Controllers/vr_glove/vr_glove_left_model_slim.glb
+    - Assets/PluginsPagages/Controllers/vr_glove/vr_glove_left_model_slim.glb.meta
+    - Assets/PluginsPagages/Controllers/vr_glove/vr_glove_right_model.fbx
+    - Assets/PluginsPagages/Controllers/vr_glove/vr_glove_right_model.fbx.meta
+    - Assets/PluginsPagages/Controllers/vr_glove/vr_glove_right_model.glb
+    - Assets/PluginsPagages/Controllers/vr_glove/vr_glove_right_model.glb.meta
+    - Assets/PluginsPagages/Controllers/vr_glove/vr_glove_right_model_slim.fbx
+    - Assets/PluginsPagages/Controllers/vr_glove/vr_glove_right_model_slim.fbx.meta
+    - Assets/PluginsPagages/Controllers/vr_glove/vr_glove_right_model_slim.glb
+    - Assets/PluginsPagages/Controllers/vr_glove/vr_glove_right_model_slim.glb.meta
+    - Assets/PluginsPagages/Oculus/Spatializer/Plugins/x86/AudioPluginOculusSpatializer.dll
+    - Assets/PluginsPagages/Oculus/Spatializer/Plugins/x86/AudioPluginOculusSpatializer.dll.meta
+    - Assets/PluginsPagages/Oculus/Spatializer/Plugins/x86/AudioPluginOculusSpatializer.dll.old1
+    - Assets/PluginsPagages/Oculus/Spatializer/Plugins/x86/AudioPluginOculusSpatializer.dll.old1.meta
+    - Assets/PluginsPagages/Oculus/Spatializer/Plugins/x86_64/AudioPluginOculusSpatializer.dll
+    - Assets/PluginsPagages/Oculus/Spatializer/Plugins/x86_64/AudioPluginOculusSpatializer.dll.meta
+    - Assets/PluginsPagages/Oculus/Spatializer/Plugins/x86_64/AudioPluginOculusSpatializer.dll.old1
+    - Assets/PluginsPagages/Oculus/Spatializer/Plugins/x86_64/AudioPluginOculusSpatializer.dll.old1.meta
+    - Assets/PluginsPagages/Oculus/VR/Plugins/1.57.0/Android/OVRPlugin.aar.disabled.meta
+    - Assets/PluginsPagages/Oculus/VR/Plugins/1.57.0/AndroidUniversal/OVRPlugin.aar.disabled.meta
+    - Assets/PluginsPagages/Oculus/VR/Plugins/1.57.0/Win/OVRPlugin.dll.disabled.meta
+    - Assets/PluginsPagages/Oculus/VR/Plugins/1.57.0/Win64/OVRPlugin.dll.disabled.meta
     - Assets/PluginsPagages/Oculus/VR/Prefabs/OVRCameraRig.prefab
+    - Assets/PluginsPagages/Resources.meta
+    - Assets/PluginsPagages/Resources/ONSPSettings.asset
+    - Assets/PluginsPagages/Resources/ONSPSettings.asset.meta
+    - Assets/PluginsPagages/Resources/OVRPlatformToolSettings.asset
+    - Assets/PluginsPagages/Resources/OVRPlatformToolSettings.asset.meta
+    - Assets/PluginsPagages/oculus_rifts_controller_left.meta
+    - Assets/PluginsPagages/oculus_rifts_controller_left/body.mtl
+    - Assets/PluginsPagages/oculus_rifts_controller_left/body.mtl.meta
+    - Assets/PluginsPagages/oculus_rifts_controller_left/body.obj
+    - Assets/PluginsPagages/oculus_rifts_controller_left/body.obj.meta
+    - Assets/PluginsPagages/oculus_rifts_controller_left/button_enter.mtl
+    - Assets/PluginsPagages/oculus_rifts_controller_left/button_enter.mtl.meta
+    - Assets/PluginsPagages/oculus_rifts_controller_left/button_enter.obj
+    - Assets/PluginsPagages/oculus_rifts_controller_left/button_enter.obj.meta
+    - Assets/PluginsPagages/oculus_rifts_controller_left/button_grip.mtl
+    - Assets/PluginsPagages/oculus_rifts_controller_left/button_grip.mtl.meta
+    - Assets/PluginsPagages/oculus_rifts_controller_left/button_grip.obj
+    - Assets/PluginsPagages/oculus_rifts_controller_left/button_grip.obj.meta
+    - Assets/PluginsPagages/oculus_rifts_controller_left/button_x.mtl
+    - Assets/PluginsPagages/oculus_rifts_controller_left/button_x.mtl.meta
+    - Assets/PluginsPagages/oculus_rifts_controller_left/button_x.obj
+    - Assets/PluginsPagages/oculus_rifts_controller_left/button_x.obj.meta
+    - Assets/PluginsPagages/oculus_rifts_controller_left/button_y.mtl
+    - Assets/PluginsPagages/oculus_rifts_controller_left/button_y.mtl.meta
+    - Assets/PluginsPagages/oculus_rifts_controller_left/button_y.obj
+    - Assets/PluginsPagages/oculus_rifts_controller_left/button_y.obj.meta
+    - Assets/PluginsPagages/oculus_rifts_controller_left/left_diff.png
+    - Assets/PluginsPagages/oculus_rifts_controller_left/left_diff.png.meta
+    - Assets/PluginsPagages/oculus_rifts_controller_left/left_spec.png
+    - Assets/PluginsPagages/oculus_rifts_controller_left/left_spec.png.meta
+    - Assets/PluginsPagages/oculus_rifts_controller_left/oculus_rifts_controller_left.json
+    - Assets/PluginsPagages/oculus_rifts_controller_left/oculus_rifts_controller_left.json.meta
+    - Assets/PluginsPagages/oculus_rifts_controller_left/oculus_rifts_controller_left.mtl
+    - Assets/PluginsPagages/oculus_rifts_controller_left/oculus_rifts_controller_left.mtl.meta
+    - Assets/PluginsPagages/oculus_rifts_controller_left/oculus_rifts_controller_left.obj
+    - Assets/PluginsPagages/oculus_rifts_controller_left/oculus_rifts_controller_left.obj.meta
+    - Assets/PluginsPagages/oculus_rifts_controller_left/oculus_rifts_controller_left_thumbnail.png
+    - Assets/PluginsPagages/oculus_rifts_controller_left/oculus_rifts_controller_left_thumbnail.png.meta
+    - Assets/PluginsPagages/oculus_rifts_controller_left/thumbstick.mtl
+    - Assets/PluginsPagages/oculus_rifts_controller_left/thumbstick.mtl.meta
+    - Assets/PluginsPagages/oculus_rifts_controller_left/thumbstick.obj
+    - Assets/PluginsPagages/oculus_rifts_controller_left/thumbstick.obj.meta
+    - Assets/PluginsPagages/oculus_rifts_controller_left/trigger.mtl
+    - Assets/PluginsPagages/oculus_rifts_controller_left/trigger.mtl.meta
+    - Assets/PluginsPagages/oculus_rifts_controller_left/trigger.obj
+    - Assets/PluginsPagages/oculus_rifts_controller_left/trigger.obj.meta
+    - Assets/PluginsPagages/oculus_rifts_controller_right.meta
+    - Assets/PluginsPagages/oculus_rifts_controller_right/body.mtl
+    - Assets/PluginsPagages/oculus_rifts_controller_right/body.mtl.meta
+    - Assets/PluginsPagages/oculus_rifts_controller_right/body.obj
+    - Assets/PluginsPagages/oculus_rifts_controller_right/body.obj.meta
+    - Assets/PluginsPagages/oculus_rifts_controller_right/button_a.mtl
+    - Assets/PluginsPagages/oculus_rifts_controller_right/button_a.mtl.meta
+    - Assets/PluginsPagages/oculus_rifts_controller_right/button_a.obj
+    - Assets/PluginsPagages/oculus_rifts_controller_right/button_a.obj.meta
+    - Assets/PluginsPagages/oculus_rifts_controller_right/button_b.mtl
+    - Assets/PluginsPagages/oculus_rifts_controller_right/button_b.mtl.meta
+    - Assets/PluginsPagages/oculus_rifts_controller_right/button_b.obj
+    - Assets/PluginsPagages/oculus_rifts_controller_right/button_b.obj.meta
+    - Assets/PluginsPagages/oculus_rifts_controller_right/button_enter.mtl
+    - Assets/PluginsPagages/oculus_rifts_controller_right/button_enter.mtl.meta
+    - Assets/PluginsPagages/oculus_rifts_controller_right/button_enter.obj
+    - Assets/PluginsPagages/oculus_rifts_controller_right/button_enter.obj.meta
+    - Assets/PluginsPagages/oculus_rifts_controller_right/button_grip.mtl
+    - Assets/PluginsPagages/oculus_rifts_controller_right/button_grip.mtl.meta
+    - Assets/PluginsPagages/oculus_rifts_controller_right/button_grip.obj
+    - Assets/PluginsPagages/oculus_rifts_controller_right/button_grip.obj.meta
+    - Assets/PluginsPagages/oculus_rifts_controller_right/oculus_rifts_controller_right.json
+    - Assets/PluginsPagages/oculus_rifts_controller_right/oculus_rifts_controller_right.json.meta
+    - Assets/PluginsPagages/oculus_rifts_controller_right/oculus_rifts_controller_right.mtl
+    - Assets/PluginsPagages/oculus_rifts_controller_right/oculus_rifts_controller_right.mtl.meta
+    - Assets/PluginsPagages/oculus_rifts_controller_right/oculus_rifts_controller_right.obj
+    - Assets/PluginsPagages/oculus_rifts_controller_right/oculus_rifts_controller_right.obj.meta
+    - Assets/PluginsPagages/oculus_rifts_controller_right/oculus_rifts_controller_right_thumbnail.png
+    - Assets/PluginsPagages/oculus_rifts_controller_right/oculus_rifts_controller_right_thumbnail.png.meta
+    - Assets/PluginsPagages/oculus_rifts_controller_right/right_diff.png
+    - Assets/PluginsPagages/oculus_rifts_controller_right/right_diff.png.meta
+    - Assets/PluginsPagages/oculus_rifts_controller_right/right_spec.png
+    - Assets/PluginsPagages/oculus_rifts_controller_right/right_spec.png.meta
+    - Assets/PluginsPagages/oculus_rifts_controller_right/thumbstick.mtl
+    - Assets/PluginsPagages/oculus_rifts_controller_right/thumbstick.mtl.meta
+    - Assets/PluginsPagages/oculus_rifts_controller_right/thumbstick.obj
+    - Assets/PluginsPagages/oculus_rifts_controller_right/thumbstick.obj.meta
+    - Assets/PluginsPagages/oculus_rifts_controller_right/trigger.mtl
+    - Assets/PluginsPagages/oculus_rifts_controller_right/trigger.mtl.meta
+    - Assets/PluginsPagages/oculus_rifts_controller_right/trigger.obj
+    - Assets/PluginsPagages/oculus_rifts_controller_right/trigger.obj.meta
+    - Assets/PluginsPagages/vr_glove.meta
+    - Assets/PluginsPagages/vr_glove/vr_glove_left_model.fbx
+    - Assets/PluginsPagages/vr_glove/vr_glove_left_model.fbx.meta
+    - Assets/PluginsPagages/vr_glove/vr_glove_left_model.glb
+    - Assets/PluginsPagages/vr_glove/vr_glove_left_model.glb.meta
+    - Assets/PluginsPagages/vr_glove/vr_glove_left_model_slim.fbx
+    - Assets/PluginsPagages/vr_glove/vr_glove_left_model_slim.fbx.meta
+    - Assets/PluginsPagages/vr_glove/vr_glove_left_model_slim.glb
+    - Assets/PluginsPagages/vr_glove/vr_glove_left_model_slim.glb.meta
+    - Assets/PluginsPagages/vr_glove/vr_glove_right_model.fbx
+    - Assets/PluginsPagages/vr_glove/vr_glove_right_model.fbx.meta
+    - Assets/PluginsPagages/vr_glove/vr_glove_right_model.glb
+    - Assets/PluginsPagages/vr_glove/vr_glove_right_model.glb.meta
+    - Assets/PluginsPagages/vr_glove/vr_glove_right_model_slim.fbx
+    - Assets/PluginsPagages/vr_glove/vr_glove_right_model_slim.fbx.meta
+    - Assets/PluginsPagages/vr_glove/vr_glove_right_model_slim.glb
+    - Assets/PluginsPagages/vr_glove/vr_glove_right_model_slim.glb.meta
     - Assets/Prefabs.meta
     - Assets/Prefabs/Controller 1.prefab
     - Assets/Prefabs/Controller 1.prefab.meta
@@ -120,6 +618,12 @@ MonoBehaviour:
     - Assets/Prefabs/ControllerPrefabs.prefab.meta
     - Assets/Prefabs/Default Controller.prefab
     - Assets/Prefabs/Default Controller.prefab.meta
+    - Assets/Prefabs/Obstacle.prefab
+    - Assets/Prefabs/Obstacle.prefab.meta
+    - Assets/Prefabs/Obstacle1.prefab
+    - Assets/Prefabs/Obstacle1.prefab.meta
+    - Assets/Prefabs/Obstacle2.prefab
+    - Assets/Prefabs/Obstacle2.prefab.meta
     - Assets/Prefabs/Oculus Quest Controller - Left.prefab
     - Assets/Prefabs/Oculus Quest Controller - Left.prefab.meta
     - Assets/Prefabs/Oculus Quest Controller - Right.prefab
@@ -128,7 +632,6 @@ MonoBehaviour:
     - Assets/Prefabs/Oculus Touch Controller - Left.prefab.meta
     - Assets/Prefabs/Oculus Touch Controller - Right.prefab
     - Assets/Prefabs/Oculus Touch Controller - Right.prefab.meta
-    - Assets/Prefabs/Prefabs.meta
     - Assets/Prefabs/Prefabs/Audio.prefab
     - Assets/Prefabs/Prefabs/Audio.prefab.meta
     - Assets/Prefabs/Prefabs/BlueCube.prefab
@@ -147,8 +650,6 @@ MonoBehaviour:
     - Assets/Prefabs/Prefabs/Platform.prefab.meta
     - Assets/Prefabs/Prefabs/RedCube.prefab
     - Assets/Prefabs/Prefabs/RedCube.prefab.meta
-    - Assets/Prefabs/Prefabs/Spawner.prefab
-    - Assets/Prefabs/Prefabs/Spawner.prefab.meta
     - Assets/Prefabs/Prefabs/SphereObstacle.prefab
     - Assets/Prefabs/Prefabs/SphereObstacle.prefab.meta
     - Assets/Prefabs/Prefabs/Test objects.prefab
@@ -157,12 +658,15 @@ MonoBehaviour:
     - Assets/Prefabs/Prefabs/VRRigg.prefab.meta
     - Assets/Prefabs/Prefabs/Walls.prefab
     - Assets/Prefabs/Prefabs/Walls.prefab.meta
+    - Assets/Prefabs/Spawner.prefab
+    - Assets/Prefabs/Spawner.prefab.meta
     - Assets/Prefabs/VR RigUnity.prefab
     - Assets/Prefabs/VR RigUnity.prefab.meta
     - Assets/Scenes.meta
+    - Assets/Scenes/CurrentScene.unity
+    - Assets/Scenes/CurrentScene.unity.meta
     - Assets/Scenes/ObstaclePathMain.unity
     - Assets/Scenes/ObstaclePathMain.unity.meta
-    - Assets/Scenes/Scenes.meta
     - Assets/Scenes/Scenes/LoseScene.unity
     - Assets/Scenes/Scenes/LoseScene.unity.meta
     - Assets/Scenes/Scenes/MainScene.meta
@@ -192,15 +696,40 @@ MonoBehaviour:
     - Assets/Scenes/Scenes/WinScene.unity
     - Assets/Scenes/Scenes/WinScene.unity.meta
     - Assets/Scripts.meta
-    - Assets/Scripts/ControllerCharacteristics.cs
-    - Assets/Scripts/ControllerCharacteristics.cs.meta
-    - Assets/Scripts/Scripts.meta
+    - Assets/Scripts/ObjectSlice.cs
+    - Assets/Scripts/ObjectSlice.cs.meta
     - Assets/Scripts/Scripts/Controller.cs
     - Assets/Scripts/Scripts/Controller.cs.meta
+    - Assets/Scripts/Scripts/ControllerCharacteristics.cs
+    - Assets/Scripts/Scripts/ControllerCharacteristics.cs.meta
     - Assets/Scripts/Scripts/Cube.cs
     - Assets/Scripts/Scripts/Cube.cs.meta
     - Assets/Scripts/Scripts/CubeSpawner.cs
     - Assets/Scripts/Scripts/CubeSpawner.cs.meta
+    - Assets/Scripts/Scripts/DeviceInput.cs
+    - Assets/Scripts/Scripts/DeviceInput.cs.meta
+    - Assets/Scripts/Scripts/EzySlice.meta
+    - Assets/Scripts/Scripts/EzySlice/Framework.meta
+    - Assets/Scripts/Scripts/EzySlice/Framework/IntersectionResult.cs
+    - Assets/Scripts/Scripts/EzySlice/Framework/IntersectionResult.cs.meta
+    - Assets/Scripts/Scripts/EzySlice/Framework/Intersector.cs
+    - Assets/Scripts/Scripts/EzySlice/Framework/Intersector.cs.meta
+    - Assets/Scripts/Scripts/EzySlice/Framework/Line.cs
+    - Assets/Scripts/Scripts/EzySlice/Framework/Line.cs.meta
+    - Assets/Scripts/Scripts/EzySlice/Framework/Plane.cs
+    - Assets/Scripts/Scripts/EzySlice/Framework/Plane.cs.meta
+    - Assets/Scripts/Scripts/EzySlice/Framework/TextureRegion.cs
+    - Assets/Scripts/Scripts/EzySlice/Framework/TextureRegion.cs.meta
+    - Assets/Scripts/Scripts/EzySlice/Framework/Triangle.cs
+    - Assets/Scripts/Scripts/EzySlice/Framework/Triangle.cs.meta
+    - Assets/Scripts/Scripts/EzySlice/Framework/Triangulator.cs
+    - Assets/Scripts/Scripts/EzySlice/Framework/Triangulator.cs.meta
+    - Assets/Scripts/Scripts/EzySlice/SlicedHull.cs
+    - Assets/Scripts/Scripts/EzySlice/SlicedHull.cs.meta
+    - Assets/Scripts/Scripts/EzySlice/Slicer.cs
+    - Assets/Scripts/Scripts/EzySlice/Slicer.cs.meta
+    - Assets/Scripts/Scripts/EzySlice/SlicerExtensions.cs
+    - Assets/Scripts/Scripts/EzySlice/SlicerExtensions.cs.meta
     - Assets/Scripts/Scripts/HandPreference.cs
     - Assets/Scripts/Scripts/HandPreference.cs.meta
     - Assets/Scripts/Scripts/InputManager.cs
@@ -215,10 +744,89 @@ MonoBehaviour:
     - Assets/Scripts/Scripts/VRPlayerController.cs.meta
     - Assets/Scripts/Scripts/VrController.cs
     - Assets/Scripts/Scripts/VrController.cs.meta
+    - Assets/Scripts/VelocityEstimator.cs
+    - Assets/Scripts/VelocityEstimator.cs.meta
+    - Assets/Spawner.cs
+    - Assets/Spawner.cs.meta
+    - Assets/TextMesh Pro.meta
+    - Assets/TextMesh Pro/Documentation.meta
+    - Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf
+    - Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf.meta
+    - Assets/TextMesh Pro/Fonts.meta
+    - Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt
+    - Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt.meta
+    - Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+    - Assets/TextMesh Pro/Fonts/LiberationSans.ttf.meta
+    - Assets/TextMesh Pro/Resources.meta
+    - Assets/TextMesh Pro/Resources/Fonts & Materials.meta
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat.meta
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset.meta
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat.meta
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset.meta
+    - Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt
+    - Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt.meta
+    - Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt
+    - Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt.meta
+    - Assets/TextMesh Pro/Resources/Sprite Assets.meta
+    - Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset
+    - Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset.meta
+    - Assets/TextMesh Pro/Resources/Style Sheets.meta
+    - Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset
+    - Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset.meta
+    - Assets/TextMesh Pro/Resources/TMP Settings.asset
+    - Assets/TextMesh Pro/Resources/TMP Settings.asset.meta
+    - Assets/TextMesh Pro/Shaders.meta
+    - Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader
+    - Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader
+    - Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader
+    - Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_Sprite.shader
+    - Assets/TextMesh Pro/Shaders/TMP_Sprite.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMPro.cginc
+    - Assets/TextMesh Pro/Shaders/TMPro.cginc.meta
+    - Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc
+    - Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc.meta
+    - Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc
+    - Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc.meta
+    - Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc
+    - Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc.meta
+    - Assets/TextMesh Pro/Sprites.meta
+    - Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt
+    - Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt.meta
+    - Assets/TextMesh Pro/Sprites/EmojiOne.json
+    - Assets/TextMesh Pro/Sprites/EmojiOne.json.meta
+    - Assets/TextMesh Pro/Sprites/EmojiOne.png
+    - Assets/TextMesh Pro/Sprites/EmojiOne.png.meta
+    - ProjectSettings/EditorBuildSettings.asset
+    - ProjectSettings/TagManager.asset
     - 
-    m_Values: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001010101000100010100000000000000000000000000000000000000000000000000000000000000000000000000000000000101000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    m_Values: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   RevisionSummary: 
   ChangesSearchValue: 
-  SelectedHistoryRevision: 6288f2b82861de1f5aa870979757562db02f9a9c
+  SelectedHistoryRevision: 
   HistoryPageNumber: 0
-  TabIndex: 1
+  TabIndex: 0

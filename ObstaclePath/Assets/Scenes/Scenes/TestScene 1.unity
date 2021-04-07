@@ -140,6 +140,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 22ab91c5c02ddb2479052d6afb0fc8c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  xrNode: 4
 --- !u!1 &926158538
 GameObject:
   m_ObjectHideFlags: 0
@@ -250,6 +251,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 22ab91c5c02ddb2479052d6afb0fc8c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  xrNode: 4
 --- !u!136 &1940240613
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -527,7 +529,5 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 5320377105724489787, guid: 66d2168586f3de5448934375e18eaab9, type: 3}
-    - {fileID: 5320377105957284434, guid: 66d2168586f3de5448934375e18eaab9, type: 3}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 66d2168586f3de5448934375e18eaab9, type: 3}
