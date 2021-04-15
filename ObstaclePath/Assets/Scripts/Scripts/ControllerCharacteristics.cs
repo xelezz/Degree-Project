@@ -32,7 +32,6 @@ public class ControllerCharacteristics : MonoBehaviour
         }
     }
 
-    // Update is called once per frame
     void Update()
     {
         ControllerInput();
@@ -47,16 +46,16 @@ public class ControllerCharacteristics : MonoBehaviour
             if (Rdevices.Count > 0)
             {
                 rightDevice = Rdevices[0];
-                GameObject prefab = controllerPrefabs.Find(controller => controller.name == rightDevice.name);
-                if (prefab)
-                {
-                    spawnedController = Instantiate(prefab, transform);
-                }
-                else
-                {
-                    Debug.LogError("did not find controller model");
-                    spawnedController = Instantiate(controllerPrefabs[0], transform);
-                }
+                //GameObject prefab = controllerPrefabs.Find(controller => controller.name == rightDevice.name);
+                //if (prefab)
+                //{
+                //    spawnedController = Instantiate(prefab, transform);
+                //}
+                //else
+                //{
+                //    Debug.LogError("did not find controller model");
+                //    spawnedController = Instantiate(controllerPrefabs[0], transform);
+                //}
             }
 
         }
@@ -65,17 +64,17 @@ public class ControllerCharacteristics : MonoBehaviour
 
             if (Ldevices.Count > 0)
             {
-                leftDevice = Ldevices[0];
-                GameObject prefab = controllerPrefabs.Find(controller => controller.name == leftDevice.name);
-                if (prefab)
-                {
-                    spawnedController = Instantiate(prefab, transform);
-                }
-                else
-                {
-                    Debug.LogError("did not find controller model");
-                    spawnedController = Instantiate(controllerPrefabs[0], transform);
-                }
+                //leftDevice = Ldevices[0];
+                //GameObject prefab = controllerPrefabs.Find(controller => controller.name == leftDevice.name);
+                //if (prefab)
+                //{
+                //    spawnedController = Instantiate(prefab, transform);
+                //}
+                //else
+                //{
+                //    Debug.LogError("did not find controller model");
+                //    spawnedController = Instantiate(controllerPrefabs[0], transform);
+                //}
             }
 
         }
@@ -119,10 +118,7 @@ public class ControllerCharacteristics : MonoBehaviour
         {
             Debug.Log("Touching primary touch button(A)");
         }
-        //if (rightDevice.TryGetFeatureValue(CommonUsages.thumbrest, out bool rthumbTouchValue) && rthumbTouchValue)
-        //{
-        //    Debug.Log("Touching right thumbrest");
-        //}
+
         #endregion RightHandInput
 
         //The input for the left controller
@@ -163,10 +159,7 @@ public class ControllerCharacteristics : MonoBehaviour
         {
             Debug.Log("Touching primary touch button(X)");
         }
-        //if (leftDevice.TryGetFeatureValue(CommonUsages.thumbrest, out bool lthumbTouchValue) && lthumbTouchValue)
-        //{
-        //    Debug.Log("Touching left thumbrest");
-        //}
+
         #endregion LeftHandInput
 
 
@@ -255,6 +248,8 @@ public class ControllerCharacteristics : MonoBehaviour
         //    Debug.Log("Touching left thumbrest");
         //}
         //#endregion LeftHandInput
-
+        
+        //Shows all devices
+        //InputDevices.GetDevices(devices);
     }
 }

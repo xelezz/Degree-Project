@@ -59,6 +59,7 @@
     <Compile Include="Assets\PluginsPagages\Oculus\SampleFramework\Core\Locomotion\Scripts\TeleportOrientationHandlerHMD.cs" />
     <Compile Include="Assets\PluginsPagages\Oculus\SampleFramework\Core\Locomotion\Scripts\TeleportAimHandlerParabolic.cs" />
     <Compile Include="Assets\PluginsPagages\Oculus\Spatializer\scripts\OculusSpatializerUnity.cs" />
+    <Compile Include="Assets\Scripts\Scripts\EzySlice\Framework\TextureRegion.cs" />
     <Compile Include="Assets\PluginsPagages\Oculus\SampleFramework\Usage\HandsTrainExample\Scripts\HandsActiveChecker.cs" />
     <Compile Include="Assets\PluginsPagages\Oculus\AudioManager\Scripts\Audio\AudioManager.cs" />
     <Compile Include="Assets\PluginsPagages\Oculus\Avatar\Scripts\OvrAvatarSkinnedMeshRenderPBSV2Component.cs" />
@@ -70,17 +71,20 @@
     <Compile Include="Assets\PluginsPagages\Oculus\Spatializer\scripts\ONSPAudioSource.cs" />
     <Compile Include="Assets\PluginsPagages\Oculus\SampleFramework\Usage\HandsTrainExample\Scripts\WindmillController.cs" />
     <Compile Include="Assets\PluginsPagages\Oculus\Avatar\Scripts\OvrAvatarSettings.cs" />
+    <Compile Include="Assets\SwitchWeapon.cs" />
     <Compile Include="Assets\Scripts\ObjectSlice.cs" />
     <Compile Include="Assets\Scripts\Scripts\Controller.cs" />
     <Compile Include="Assets\PluginsPagages\Oculus\SampleFramework\Core\DebugUI\Scripts\LaserPointer.cs" />
     <Compile Include="Assets\PluginsPagages\Oculus\SampleFramework\Core\Locomotion\Scripts\TeleportTransition.cs" />
     <Compile Include="Assets\PluginsPagages\Oculus\Avatar\Scripts\OvrAvatarSDKCAPI.cs" />
+    <Compile Include="Assets\Scripts\Scripts\EzySlice\SlicedHull.cs" />
     <Compile Include="Assets\PluginsPagages\Oculus\Avatar\Scripts\GazeTarget.cs" />
     <Compile Include="Assets\PluginsPagages\Oculus\SampleFramework\Usage\HandsTrainExample\Scripts\SelectionCylinder.cs" />
     <Compile Include="Assets\PluginsPagages\Oculus\SampleFramework\Usage\HandsTrainExample\Scripts\PanelHMDFollower.cs" />
     <Compile Include="Assets\PluginsPagages\Oculus\Avatar\Scripts\OvrAvatarSkinnedMeshRenderComponent.cs" />
     <Compile Include="Assets\PluginsPagages\Oculus\AudioManager\Scripts\Utils\FastList.cs" />
     <Compile Include="Assets\PluginsPagages\Oculus\SampleFramework\Usage\HandsTrainExample\Scripts\CowController.cs" />
+    <Compile Include="Assets\Scripts\Scripts\EzySlice\Framework\Line.cs" />
     <Compile Include="Assets\PluginsPagages\Oculus\Avatar\Samples\SocialStarter\Assets\Scripts\RoomManager.cs" />
     <Compile Include="Assets\PluginsPagages\Oculus\Avatar\Scripts\OvrAvatarSDKManager.cs" />
     <Compile Include="Assets\PluginsPagages\Oculus\SampleFramework\Usage\DebugUI\DebugUISample.cs" />
@@ -97,6 +101,7 @@
     <Compile Include="Assets\PluginsPagages\Oculus\SampleFramework\Core\Video\Scripts\MoviePlayerSample.cs" />
     <Compile Include="Assets\PluginsPagages\Oculus\SampleFramework\Core\Locomotion\Scripts\TeleportDestination.cs" />
     <Compile Include="Assets\PluginsPagages\Oculus\SampleFramework\Usage\HandsTrainExample\Scripts\TrainButtonVisualController.cs" />
+    <Compile Include="Assets\Scripts\Scripts\EzySlice\Framework\Triangle.cs" />
     <Compile Include="Assets\PluginsPagages\Oculus\SampleFramework\Core\HandsInteraction\Scripts\BoneCapsuleTriggerLogic.cs" />
     <Compile Include="Assets\PluginsPagages\Oculus\LipSync\Scenes\Scripts\EnableSwitch.cs" />
     <Compile Include="Assets\PluginsPagages\Oculus\SampleFramework\Core\Locomotion\Scripts\SimpleCapsuleWithStickMovement.cs" />
@@ -107,6 +112,7 @@
     <Compile Include="Assets\PluginsPagages\Oculus\SampleFramework\Core\HandsInteraction\Scripts\InteractableRegistry.cs" />
     <Compile Include="Assets\PluginsPagages\Oculus\SampleFramework\Core\DebugUI\Scripts\HandedInputSelector.cs" />
     <Compile Include="Assets\PluginsPagages\Oculus\SampleFramework\Core\DistanceGrab\Scripts\DistanceGrabbable.cs" />
+    <Compile Include="Assets\Scripts\Scripts\EzySlice\Framework\Plane.cs" />
     <Compile Include="Assets\PluginsPagages\Oculus\SampleFramework\Usage\HandsTrainExample\Scripts\Utils\Pose.cs" />
     <Compile Include="Assets\PluginsPagages\Oculus\LipSync\Scripts\OVRLipSyncSequence.cs" />
     <Compile Include="Assets\PluginsPagages\Oculus\SampleFramework\Core\HandsInteraction\Scripts\HandsManager.cs" />
@@ -116,8 +122,9 @@
     <Compile Include="Assets\PluginsPagages\Oculus\SampleFramework\Core\DistanceGrab\Scripts\GrabManager.cs" />
     <Compile Include="Assets\PluginsPagages\Oculus\Avatar\Scripts\OvrAvatarPacket.cs" />
     <Compile Include="Assets\PluginsPagages\Oculus\SampleFramework\Core\Locomotion\Scripts\TeleportTargetHandlerNode.cs" />
-    <Compile Include="Assets\Scripts\Scripts\DeviceInput.cs" />
     <Compile Include="Assets\PluginsPagages\Oculus\SampleFramework\Core\Locomotion\Scripts\CharacterCameraConstraint.cs" />
+    <Compile Include="Assets\Scripts\Scripts\EzySlice\SlicerExtensions.cs" />
+    <Compile Include="Assets\Spawner.cs" />
     <Compile Include="Assets\PluginsPagages\Oculus\SampleFramework\Core\DistanceGrab\Scripts\GrabbableCrosshair.cs" />
     <Compile Include="Assets\PluginsPagages\Oculus\Avatar\Scripts\OvrAvatarAssetMesh.cs" />
     <Compile Include="Assets\PluginsPagages\Oculus\SampleFramework\Usage\HandsTrainExample\Scripts\TrainLocomotive.cs" />
@@ -136,8 +143,10 @@
     <Compile Include="Assets\Scripts\Scripts\VRPlayerController.cs" />
     <Compile Include="Assets\PluginsPagages\Oculus\SampleFramework\Core\HandsInteraction\Scripts\Tools\PinchStateModule.cs" />
     <Compile Include="Assets\PluginsPagages\Oculus\Avatar\Scripts\OvrAvatarSkinnedMeshRenderPBSComponent.cs" />
+    <Compile Include="Assets\DisplayScore.cs" />
     <Compile Include="Assets\PluginsPagages\Oculus\SampleFramework\Core\DistanceGrab\Scripts\PauseOnInputLoss.cs" />
     <Compile Include="Assets\PluginsPagages\Oculus\LipSync\Scripts\OVRLipSyncContextBase.cs" />
+    <Compile Include="Assets\Scripts\Scripts\EzySlice\Framework\IntersectionResult.cs" />
     <Compile Include="Assets\PluginsPagages\Oculus\SampleFramework\Core\HandsInteraction\Scripts\InteractableToolsCreator.cs" />
     <Compile Include="Assets\PluginsPagages\Oculus\AudioManager\Scripts\Utils\InspectorNoteAttribute.cs" />
     <Compile Include="Assets\PluginsPagages\Oculus\Spatializer\scripts\ONSPPropagationMaterial.cs" />
@@ -152,6 +161,7 @@
     <Compile Include="Assets\PluginsPagages\Oculus\LipSync\Scripts\OVRLipSync.cs" />
     <Compile Include="Assets\PluginsPagages\Oculus\Avatar\Samples\SocialStarter\Assets\Scripts\VoipManager.cs" />
     <Compile Include="Assets\PluginsPagages\Oculus\AudioManager\Scripts\Audio\MinMaxAttribute.cs" />
+    <Compile Include="Assets\Scripts\Scripts\EzySlice\Framework\Intersector.cs" />
     <Compile Include="Assets\PluginsPagages\Oculus\SampleFramework\Core\Locomotion\Scripts\TeleportSupport.cs" />
     <Compile Include="Assets\PluginsPagages\Oculus\SampleFramework\Core\HandsInteraction\Scripts\ButtonController.cs" />
     <Compile Include="Assets\PluginsPagages\Oculus\SampleFramework\Core\CustomHands\Scripts\Hand.cs" />
@@ -177,6 +187,7 @@
     <Compile Include="Assets\PluginsPagages\Oculus\AudioManager\Scripts\Audio\AmbienceEmitter.cs" />
     <Compile Include="Assets\PluginsPagages\Oculus\Spatializer\scripts\helpers\ONSPReflectionZone.cs" />
     <Compile Include="Assets\PluginsPagages\Oculus\Avatar\Scripts\OvrAvatarLocalDriver.cs" />
+    <Compile Include="Assets\SwitchManager.cs" />
     <Compile Include="Assets\Scripts\Scripts\ControllerCharacteristics.cs" />
     <Compile Include="Assets\PluginsPagages\Oculus\LipSync\Scripts\Helpers\OVRTouchpad.cs" />
     <Compile Include="Assets\PluginsPagages\Oculus\SampleFramework\Core\Locomotion\Scripts\LocomotionTeleport.cs" />
@@ -209,6 +220,7 @@
     <Compile Include="Assets\PluginsPagages\Oculus\LipSync\Scripts\OVRLipSyncContextTextureFlip.cs" />
     <Compile Include="Assets\PluginsPagages\Oculus\SampleFramework\Core\HandsInteraction\Scripts\Tools\RayTool.cs" />
     <Compile Include="Assets\Scripts\Scripts\CubeSpawner.cs" />
+    <Compile Include="Assets\Scripts\Scripts\EzySlice\Framework\Triangulator.cs" />
     <Compile Include="Assets\PluginsPagages\Oculus\SampleFramework\Core\HandsInteraction\Scripts\Tools\FingerTipPokeToolView.cs" />
     <Compile Include="Assets\PluginsPagages\Oculus\Spatializer\scenes\Standard Assets\Character Controllers\Sources\Scripts\MouseLook.cs" />
     <Compile Include="Assets\PluginsPagages\Oculus\SampleFramework\Core\Locomotion\Scripts\TeleportTargetHandlerNavMesh.cs" />
@@ -216,25 +228,14 @@
     <Compile Include="Assets\PluginsPagages\Oculus\Avatar\Scripts\OvrAvatarTextureCopyManager.cs" />
     <Compile Include="Assets\PluginsPagages\Oculus\Avatar\Scripts\OvrAvatarTouchController.cs" />
     <Compile Include="Assets\PluginsPagages\Oculus\SampleFramework\Usage\OVROverlay\Scripts\OVROverlaySample.cs" />
+    <Compile Include="Assets\Scripts\VelocityEstimator.cs" />
     <Compile Include="Assets\PluginsPagages\Oculus\SampleFramework\Usage\HandsTrainExample\Scripts\ControllerBoxController.cs" />
     <Compile Include="Assets\PluginsPagages\Oculus\SampleFramework\Core\Locomotion\Scripts\TeleportTargetHandler.cs" />
     <Compile Include="Assets\PluginsPagages\Oculus\SampleFramework\Core\Video\Scripts\ButtonDownListener.cs" />
+    <Compile Include="Assets\Scripts\Scripts\EzySlice\Slicer.cs" />
     <Compile Include="Assets\PluginsPagages\Oculus\SampleFramework\Core\Locomotion\Scripts\TeleportAimHandlerLaser.cs" />
     <Compile Include="Assets\PluginsPagages\Oculus\Avatar\Samples\SocialStarter\Assets\Scripts\PlayerController.cs" />
     <Compile Include="Assets\PluginsPagages\Oculus\SampleFramework\Usage\HandsTrainExample\Scripts\TrackSegment.cs" />
-    <Compile Include="Assets\Scripts\VelocityEstimator.cs" />
-    <Compile Include="Assets\Scripts\Scripts\EzySlice\Framework\Triangle.cs" />
-    <Compile Include="Assets\Scripts\Scripts\EzySlice\Framework\Plane.cs" />
-    <Compile Include="Assets\Scripts\Scripts\EzySlice\SlicedHull.cs" />
-    <Compile Include="Assets\Scripts\Scripts\EzySlice\Slicer.cs" />
-    <Compile Include="Assets\Scripts\Scripts\EzySlice\Framework\TextureRegion.cs" />
-    <Compile Include="Assets\Scripts\Scripts\EzySlice\SlicerExtensions.cs" />
-    <Compile Include="Assets\Scripts\Scripts\EzySlice\Framework\Line.cs" />
-    <Compile Include="Assets\Scripts\Scripts\EzySlice\Framework\Intersector.cs" />
-    <Compile Include="Assets\Scripts\Scripts\EzySlice\Framework\Triangulator.cs" />
-    <Compile Include="Assets\Scripts\Scripts\EzySlice\Framework\IntersectionResult.cs" />
-    <Compile Include="Assets\Spawner.cs" />
-    <Compile Include="Assets\DisplayScore.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\PluginsPagages\Oculus\SampleFramework\Usage\HandsTrainExample\Shaders\XingLightShader.shader" />
