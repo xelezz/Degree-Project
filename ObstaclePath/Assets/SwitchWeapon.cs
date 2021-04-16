@@ -1,4 +1,3 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.XR;
@@ -6,7 +5,6 @@ using UnityEngine.XR;
 public class SwitchWeapon : MonoBehaviour
 {
     public GameObject[] weapons;
-    //public GameObject[] weapons;
     private InputDevice lTargetDevice;
     private InputDevice rTargetDevice;
     [SerializeField]
@@ -18,7 +16,7 @@ public class SwitchWeapon : MonoBehaviour
     public bool isRight;
     private List<InputDevice> Rdevices = new List<InputDevice>();
     private List<InputDevice> Ldevices = new List<InputDevice>();
-
+    private float timer = 1;
 
     void Start()
     {
@@ -50,6 +48,8 @@ public class SwitchWeapon : MonoBehaviour
     }
     private void ControllerSpawn()
     {
+      
+
         if (isRight)
         {
             if (Rdevices.Count > 0)
@@ -64,7 +64,8 @@ public class SwitchWeapon : MonoBehaviour
                 lTargetDevice = Ldevices[0];
             }
         }
-    }
+        }
+    
 
     public void SwitchAvatar()
     {
@@ -121,17 +122,3 @@ public class SwitchWeapon : MonoBehaviour
 
     }
 }
-
-        //if (devices.Count > 0)
-        //{
-        //    lTargetDevice = devices[0];
-        //    rTargetDevice = devices[0];
-        //}
-
-        //Shows all devices
-        //InputDevices.GetDevices(devices);
-
-        //InputDeviceCharacteristics rightControllerCharacteristics = InputDeviceCharacteristics.Right | InputDeviceCharacteristics.Controller;
-        //InputDeviceCharacteristics leftControllerCharacteristics = InputDeviceCharacteristics.Left | InputDeviceCharacteristics.Controller;
-        //InputDevices.GetDevicesWithCharacteristics(rightControllerCharacteristics, devices);
-        //InputDevices.GetDevicesWithCharacteristics(leftControllerCharacteristics, devices);

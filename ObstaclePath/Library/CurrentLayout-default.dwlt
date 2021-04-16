@@ -19,9 +19,9 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Project
+  m_Title: Game
   m_RootView: {fileID: 2}
-  m_MinSize: {x: 875, y: 542}
+  m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
 --- !u!114 &2
@@ -46,7 +46,7 @@ MonoBehaviour:
     y: 0
     width: 1920
     height: 997
-  m_MinSize: {x: 875, y: 542}
+  m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_UseTopView: 1
   m_TopViewHeight: 30
@@ -122,7 +122,7 @@ MonoBehaviour:
   m_MinSize: {x: 881, y: 492}
   m_MaxSize: {x: 16006, y: 14042}
   vertical: 0
-  controlID: 155
+  controlID: 156
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -193,8 +193,8 @@ MonoBehaviour:
     y: 0
     width: 237
     height: 676
-  m_MinSize: {x: 201, y: 221}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 18}
@@ -219,8 +219,8 @@ MonoBehaviour:
     y: 0
     width: 730
     height: 676
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 19}
   m_Panes:
   - {fileID: 19}
@@ -300,8 +300,8 @@ MonoBehaviour:
     y: 0
     width: 276
     height: 947
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 22}
   m_Panes:
   - {fileID: 22}
@@ -579,7 +579,7 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: 34628
+  m_LastSelectedObjectID: 42424
 --- !u!114 &16
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -839,23 +839,23 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: eaa3ffff1ea4ffff14a5ffff98a5ffff9ea5ffffcca5ffff90a6fffff8a6fffffaa6ffffbaa7ffff60a8ffffc6a8ffff94aaffff88abffff8eabffffa4abffffe6fafffff6fafffffcfaffff20fbffff4e4800002c7d0000367d00003c7d00004e7d0000587d0000ca8300009e840000b68400002287000044870000
+      m_SelectedIDs: b2480000
+      m_LastClickedID: 18610
+      m_ExpandedIDs: 9efaffffa4faffffd2faffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
+        m_Name: Audio
+        m_OriginalName: Audio
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 0
+        m_UserData: 18610
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 11
+        m_OriginalEventType: 0
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 8}
       m_SearchString: 
@@ -901,9 +901,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0.9027571, y: -1.3637275, z: -0.07239869}
+    m_Target: {x: 0.9153514, y: -0.546453, z: 0.7156457}
     speed: 2
-    m_Value: {x: 0.9027571, y: -1.3637275, z: -0.07239869}
+    m_Value: {x: 0.9153514, y: -0.546453, z: 0.7156457}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -950,13 +950,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.17006487, y: 0.6750581, z: -0.16445503, w: 0.6989662}
+    m_Target: {x: -0.04691949, y: 0.95116323, z: -0.24670233, w: -0.18016107}
     speed: 2
-    m_Value: {x: 0.17004578, y: 0.6749823, z: -0.16443656, w: 0.6988877}
+    m_Value: {x: -0.046914026, y: 0.9510525, z: -0.2466736, w: -0.1801401}
   m_Size:
-    m_Target: 1.4134743
+    m_Target: 0.8660254
     speed: 2
-    m_Value: 1.4134743
+    m_Value: 0.8660254
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -1019,22 +1019,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes/Scenes/MainScene
+    - Assets/Scripts/Scripts/EzySlice
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scenes/Scenes/MainScene
+  - Assets/Scripts/Scripts/EzySlice
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\xelez\Documents\GitHub\VR\Degree-Project\ObstaclePath
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 506}
-    m_SelectedIDs: de4a0000
-    m_LastClickedID: 19166
-    m_ExpandedIDs: 00000000ca4a0000cc4a0000ce4a0000d04a0000d24a0000d44a0000d64a0000d84a0000da4a0000dc4a0000de4a0000e04a0000684b00006a4b00006c4b000000ca9a3b
+    scrollPos: {x: 0, y: 554}
+    m_SelectedIDs: 905e0000
+    m_LastClickedID: 24208
+    m_ExpandedIDs: 000000000e4b0000104b0000124b0000144b0000164b0000184b00001a4b00001c4b00001e4b0000204b0000224b0000244b0000ae4b0000b04b00008e5e000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1062,7 +1062,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000ca4a0000cc4a0000ce4a0000d04a0000d24a0000d44a0000d64a0000d84a0000da4a0000dc4a0000de4a0000e04a0000
+    m_ExpandedIDs: 000000000e4b0000104b0000124b0000144b0000164b0000184b00001a4b00001c4b00001e4b0000204b0000224b0000244b0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
