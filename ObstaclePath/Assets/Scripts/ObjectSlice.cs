@@ -32,6 +32,7 @@ public class ObjectSlice : MonoBehaviour
 
         if (cutTarget != null)
         {
+            DisplayScore.score++;
             GameObject upperTarget = cutTarget.CreateUpperHull(target, cutMaterial);
             GameObject lowerTarget = cutTarget.CreateLowerHull(target, cutMaterial);
 
