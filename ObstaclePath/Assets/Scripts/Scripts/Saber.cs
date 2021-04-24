@@ -10,11 +10,13 @@ public class Saber : MonoBehaviour
     [SerializeField] 
     //private int score = 1;
     private Vector3 previousPos;
+    private bool hitsTarget;
 
 
 
     void Update()
     {
+      
         RaycastHit hit;
         if(Physics.Raycast(transform.position, transform.forward, out hit, 1, layer))
         {
@@ -22,10 +24,6 @@ public class Saber : MonoBehaviour
             {
                 DisplayScore.score++;
                 Destroy(hit.transform.gameObject);
-            }
-            else
-            {
-                DisplayScore.score--;
             }
         }
         previousPos = transform.position;

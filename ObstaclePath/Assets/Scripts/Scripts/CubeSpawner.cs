@@ -12,13 +12,13 @@ public class CubeSpawner : MonoBehaviour
     private float timer;
     public float timerScene = 10f;
     public float TimeToLoadScene;
- 
+    public int cubeIndex = 2;
 
     void Update()
     {
         if (timer>beat)
         {
-            GameObject cube = Instantiate(cubes[Random.Range(0,3)], points[Random.Range(0, 3)]);
+            GameObject cube = Instantiate(cubes[Random.Range(0,cubeIndex)], points[Random.Range(0, cubeIndex)]);
             cube.transform.localPosition = Vector3.zero;
             cube.transform.Rotate(transform.forward, 90 * Random.Range(0, 4));
             timer -= beat;
