@@ -6,13 +6,13 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Scenes/MainScene/MainScene.unity
+    path: Assets/Used/Scenes/StartMenu.unity
+    guid: 04550972bd2bc4c4e8e9ad5321de2d82
+  - enabled: 1
+    path: Assets/Used/Scenes/MainScene/MainScene.unity
     guid: bcb62b3efec80b044969c91496bf1427
   - enabled: 1
-    path: Assets/Scenes/Scenes/WinScene.unity
-    guid: 5d55a3a7d0b297341ab15e4644bac34f
-  - enabled: 1
-    path: Assets/Scenes/Scenes/LoseScene.unity
+    path: Assets/Used/Scenes/ScoreScene.unity
     guid: 87dabc08d77f5e44dab426647a532915
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 0f0781aee5f0f5743a9828b59f2d7ae4, type: 2}

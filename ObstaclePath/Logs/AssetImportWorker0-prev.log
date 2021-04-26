@@ -1,0 +1,651 @@
+Using pre-set license
+Built from '2020.2/staging' branch; Version is '2020.2.7f1 (c53830e277f1) revision 12924976'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19042.928; Version 2009; 64bit' Language: 'sv' Physical Memory: 8145 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.2.7f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/xelez/Documents/GitHub/VR/Degree-Project/ObstaclePath
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+51263
+Successfully changed project path to: C:/Users/xelez/Documents/GitHub/VR/Degree-Project/ObstaclePath
+C:/Users/xelez/Documents/GitHub/VR/Degree-Project/ObstaclePath
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 126.27 ms, found 10 plugins.
+Preloading 2 native plugins for Editor in 3.74 ms.
+Initialize engine version: 2020.2.7f1 (c53830e277f1)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.7f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/xelez/Documents/GitHub/VR/Degree-Project/ObstaclePath/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1070 (ID=0x1b81)
+    Vendor:   
+    VRAM:     8088 MB
+    Driver:   27.21.14.5765
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.7f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.7f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56796
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Registered in 0.002852 seconds.
+Refreshing native plugins compatible for Editor in 102.09 ms, found 10 plugins.
+Preloading 2 native plugins for Editor in 0.19 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.590 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.009977 seconds.
+Begin MonoManager ReloadAssembly
+Refreshing native plugins compatible for Editor in 87.35 ms, found 10 plugins.
+Preloading 2 native plugins for Editor in 0.15 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+[XR] OculusXRPlugin: registering subsystems
+[XR] Unable to register display lifecyle provider: [1]
+[XR] Oculus Input lifecycle provider registered.
+[XR] Unable to register input lifecyle provider: [1]
+[XR] OVRP version 1.57.0
+Mono: successfully reloaded assembly
+- Completed reload, in  1.462 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 1.44 ms, found 10 plugins.
+Preloading 2 native plugins for Editor in 0.30 ms.
+Unloading 2520 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 190.9 MB.
+System memory in use after: 190.6 MB.
+
+Unloading 39 unused Assets to reduce memory usage. Loaded Objects now: 2953.
+Total: 4.327400 ms (FindLiveObjects: 0.417900 ms CreateObjectMapping: 0.173300 ms MarkObjects: 3.124300 ms  DeleteObjects: 0.610200 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Used/Scenes/MainScene/MainScene.unity
+  artifactKey: Guid(bcb62b3efec80b044969c91496bf1427) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Used/Scenes/MainScene/MainScene.unity using Guid(bcb62b3efec80b044969c91496bf1427) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a0334f31f0b7dc3d40979c3f96e6352') in 0.035247 seconds
+  Import took 0.044936 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 54.416004 seconds.
+  path: Assets/Used/Scenes/MainScene/StartMenu.unity
+  artifactKey: Guid(04550972bd2bc4c4e8e9ad5321de2d82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Used/Scenes/MainScene/StartMenu.unity using Guid(04550972bd2bc4c4e8e9ad5321de2d82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf65f38644d567002ff65fb4160d0a74') in 0.011505 seconds
+  Import took 0.022017 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.021694 seconds.
+  path: Assets/Used/Scenes/MainScene/StartMenu.unity
+  artifactKey: Guid(04550972bd2bc4c4e8e9ad5321de2d82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Used/Scenes/MainScene/StartMenu.unity using Guid(04550972bd2bc4c4e8e9ad5321de2d82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf65f38644d567002ff65fb4160d0a74') in 0.011395 seconds
+  Import took 0.017876 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.215777 seconds.
+  path: Assets/Used/Scenes/MainScene/MainScene.unity
+  artifactKey: Guid(bcb62b3efec80b044969c91496bf1427) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Used/Scenes/MainScene/MainScene.unity using Guid(bcb62b3efec80b044969c91496bf1427) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7bbe8541e9ba22deb24bc2e828a8bde') in 0.008899 seconds
+  Import took 0.017387 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.484460 seconds.
+  path: Assets/Used/Scenes/ScoreScene.unity
+  artifactKey: Guid(87dabc08d77f5e44dab426647a532915) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Used/Scenes/ScoreScene.unity using Guid(87dabc08d77f5e44dab426647a532915) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '373fe5601d73f4a985b2afca8f8f8b38') in 0.017196 seconds
+  Import took 0.026568 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 248.964463 seconds.
+  path: Assets/Used/Prefabs/OVRCameraRig Variant.prefab
+  artifactKey: Guid(9107fccf707e18f4f9803dbe65d773c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Used/Prefabs/OVRCameraRig Variant.prefab using Guid(9107fccf707e18f4f9803dbe65d773c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf3a24ed5d1590e43114f3d1f1f5a4b4') in 0.177235 seconds
+  Import took 0.183279 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/Used/Prefabs/XR Rig1.prefab
+  artifactKey: Guid(6b1fc38875d13ba4592d045b210845de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Used/Prefabs/XR Rig1.prefab using Guid(6b1fc38875d13ba4592d045b210845de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '882e644f9aea3a12e72e16749bc88fb6') in 0.083968 seconds
+  Import took 0.094549 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/Used/Prefabs/SaberR.prefab
+  artifactKey: Guid(1a6e3b3158170174c9e244377c2d4446) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Used/Prefabs/SaberR.prefab using Guid(1a6e3b3158170174c9e244377c2d4446) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c62edc86d88af9c9b25e4a8dd3266f66') in 0.039953 seconds
+  Import took 0.054328 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 188.733679 seconds.
+  path: Assets/Used/Prefabs/Oculus Touch Controller - Right.prefab
+  artifactKey: Guid(4f5623f1a9b98194f9f0441b34991d09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Used/Prefabs/Oculus Touch Controller - Right.prefab using Guid(4f5623f1a9b98194f9f0441b34991d09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c89893cec7c1621202e27b95b7be2d7') in 0.114310 seconds
+  Import took 0.124283 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.463325 seconds.
+  path: Assets/Used/Materials/OrangeMat.mat
+  artifactKey: Guid(68e8c39f82503d44ebbf2fd75d9275de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Used/Materials/OrangeMat.mat using Guid(68e8c39f82503d44ebbf2fd75d9275de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c81b731ccd3925b09f72b99255c049f7') in 0.057411 seconds
+  Import took 0.065153 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.351140 seconds.
+  path: Assets/Used/Prefabs/Oculus Touch Controller - Right.prefab
+  artifactKey: Guid(4f5623f1a9b98194f9f0441b34991d09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Used/Prefabs/Oculus Touch Controller - Right.prefab using Guid(4f5623f1a9b98194f9f0441b34991d09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5920be07a302c53f8cba2dcd62ddbf15') in 0.037374 seconds
+  Import took 0.044493 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 37.582945 seconds.
+  path: Assets/Used/Prefabs/Oculus Touch Controller - Left.prefab
+  artifactKey: Guid(23d94516a9f0c614b9ae8398e4f20790) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Used/Prefabs/Oculus Touch Controller - Left.prefab using Guid(23d94516a9f0c614b9ae8398e4f20790) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41aaa53753377b5ffed0539d7a445c49') in 0.036195 seconds
+  Import took 0.043590 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.163094 seconds.
+  path: Assets/Used/Prefabs/Oculus Touch Controller - Right.prefab
+  artifactKey: Guid(4f5623f1a9b98194f9f0441b34991d09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Used/Prefabs/Oculus Touch Controller - Right.prefab using Guid(4f5623f1a9b98194f9f0441b34991d09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f96c66e01c694bcc4bbd09af1cf5bb0') in 0.036495 seconds
+  Import took 0.046767 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.030686 seconds.
+Begin MonoManager ReloadAssembly
+Refreshing native plugins compatible for Editor in 1.45 ms, found 10 plugins.
+Preloading 2 native plugins for Editor in 0.25 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.404 seconds
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 1.14 ms, found 10 plugins.
+Preloading 2 native plugins for Editor in 0.18 ms.
+Unloading 2402 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 201.2 MB.
+System memory in use after: 200.9 MB.
+
+Unloading 32 unused Assets to reduce memory usage. Loaded Objects now: 2999.
+Total: 3.360000 ms (FindLiveObjects: 0.332700 ms CreateObjectMapping: 0.129700 ms MarkObjects: 2.311000 ms  DeleteObjects: 0.585200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 261.187490 seconds.
+  path: Assets/Used/PluginsPagages/oculus_rifts_controller_right/thumbstick.obj
+  artifactKey: Guid(66c03daa753c8d44aa915c531c0a5183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Used/PluginsPagages/oculus_rifts_controller_right/thumbstick.obj using Guid(66c03daa753c8d44aa915c531c0a5183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d835c4c976c74edde2236b8fc3864de') in 0.639053 seconds
+  Import took 0.794466 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000485 seconds.
+  path: Assets/Used/PluginsPagages/Controllers/oculus_quest2_controller_right/oculus_quest2_controller_right_thumbstick.obj
+  artifactKey: Guid(d922239e2855c9845be647e5e578f0fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Used/PluginsPagages/Controllers/oculus_quest2_controller_right/oculus_quest2_controller_right_thumbstick.obj using Guid(d922239e2855c9845be647e5e578f0fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50794746e9a9dec5068c403400b0a9a9') in 0.132504 seconds
+  Import took 0.151594 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/Used/PluginsPagages/Controllers/oculus_quest_controller_left/button_x.obj
+  artifactKey: Guid(9c8d3dc38411aeb44b14b3a4efaf52c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Used/PluginsPagages/Controllers/oculus_quest_controller_left/button_x.obj using Guid(9c8d3dc38411aeb44b14b3a4efaf52c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd63f2e7af238ed596a601595c8c5a27c') in 0.212385 seconds
+  Import took 0.240884 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000487 seconds.
+  path: Assets/Used/PluginsPagages/Oculus/LipSync/Models/RobotHead_TextureFlip/RobotHead_TextureFlip.FBX
+  artifactKey: Guid(f82b1e3c015abaa409d91ab8eb628ac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Used/PluginsPagages/Oculus/LipSync/Models/RobotHead_TextureFlip/RobotHead_TextureFlip.FBX using Guid(f82b1e3c015abaa409d91ab8eb628ac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85a00b8781644c2e9e9138dd03dc0246') in 0.365387 seconds
+  Import took 0.375478 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000910 seconds.
+  path: Assets/Used/PluginsPagages/Oculus/SampleFramework/Usage/SharedAssets/Models/door_01.fbx
+  artifactKey: Guid(1abf38d82ed5948a6a28aad10d61b678) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Used/PluginsPagages/Oculus/SampleFramework/Usage/SharedAssets/Models/door_01.fbx using Guid(1abf38d82ed5948a6a28aad10d61b678) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82687d657a2206637bbd68e6909faf1c') in 0.134764 seconds
+  Import took 0.142574 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/Used/PluginsPagages/Controllers/oculus_rifts_controller_left/button_x.obj
+  artifactKey: Guid(c4e4b1268a0e0994786cfe27c047905e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Used/PluginsPagages/Controllers/oculus_rifts_controller_left/button_x.obj using Guid(c4e4b1268a0e0994786cfe27c047905e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c3b01e1681d1088ae6f56e7a0da9f3a') in 0.111132 seconds
+  Import took 0.119335 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000399 seconds.
+  path: Assets/Used/PluginsPagages/Oculus/LipSync/Models/FemaleHead_Morph/Female.fbx
+  artifactKey: Guid(cbaf1c32e7ec84f10a51be1b09c0ef46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Used/PluginsPagages/Oculus/LipSync/Models/FemaleHead_Morph/Female.fbx using Guid(cbaf1c32e7ec84f10a51be1b09c0ef46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7dca3a13490bd8a5c57cab0ce759039') in 0.261062 seconds
+  Import took 0.270475 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/Used/PluginsPagages/Oculus/SampleFramework/Core/TouchControllers/Models/left_touch_controller_model_skel.fbx
+  artifactKey: Guid(1bf8f52eeebe8e149b9d6e3477251532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Used/PluginsPagages/Oculus/SampleFramework/Core/TouchControllers/Models/left_touch_controller_model_skel.fbx using Guid(1bf8f52eeebe8e149b9d6e3477251532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '307ce702110d90a4e761b00c8040fb72') in 0.246206 seconds
+  Import took 0.259557 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000381 seconds.
+  path: Assets/Used/PluginsPagages/Controllers/oculus_quest_controller_left/body.obj
+  artifactKey: Guid(e5e18119d0061b94db643f4fef1db8fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Used/PluginsPagages/Controllers/oculus_quest_controller_left/body.obj using Guid(e5e18119d0061b94db643f4fef1db8fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bafe42176dfadc88e265d529f43987c4') in 0.158767 seconds
+  Import took 0.173595 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/Used/PluginsPagages/Controllers/oculus_rifts_controller_left/body.obj
+  artifactKey: Guid(d48642f9af65e994184d89974fee1373) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Used/PluginsPagages/Controllers/oculus_rifts_controller_left/body.obj using Guid(d48642f9af65e994184d89974fee1373) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '515e85a71bf28bedde99692fa5e5d957') in 0.095341 seconds
+  Import took 0.102893 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/Used/PluginsPagages/Oculus/SampleFramework/Usage/SharedAssets/Models/ball_soccer_01.fbx
+  artifactKey: Guid(dfd14d25717789f4796c172f0155c366) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Used/PluginsPagages/Oculus/SampleFramework/Usage/SharedAssets/Models/ball_soccer_01.fbx using Guid(dfd14d25717789f4796c172f0155c366) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04816f5ecf1033a98db0a2ef76877c78') in 0.079175 seconds
+  Import took 0.116383 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/Used/PluginsPagages/oculus_rifts_controller_right/trigger.obj
+  artifactKey: Guid(00f86992d81dd304ea521740626c3624) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Used/PluginsPagages/oculus_rifts_controller_right/trigger.obj using Guid(00f86992d81dd304ea521740626c3624) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8acb41973a691076515f544b1ef40f9') in 0.092308 seconds
+  Import took 0.110131 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Used/PluginsPagages/Controllers/oculus_quest2_controller_left/oculus_quest2_controller_left.obj
+  artifactKey: Guid(5495eb3038a6d6646ad4506366898539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Used/PluginsPagages/Controllers/oculus_quest2_controller_left/oculus_quest2_controller_left.obj using Guid(5495eb3038a6d6646ad4506366898539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19386bf0520e1cbceffd3e3d23701e6d') in 0.107987 seconds
+  Import took 0.114447 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/Used/PluginsPagages/Controllers/oculus_quest2_controller_left/oculus_quest2_controller_left_button_y.obj
+  artifactKey: Guid(38f533dbb02fd074587fb9d49507241f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Used/PluginsPagages/Controllers/oculus_quest2_controller_left/oculus_quest2_controller_left_button_y.obj using Guid(38f533dbb02fd074587fb9d49507241f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03b667136785db06a659dbfa61005689') in 0.142480 seconds
+  Import took 0.149960 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Used/PluginsPagages/Controllers/oculus_quest_controller_right/trigger.obj
+  artifactKey: Guid(55572e15683426841b6a1d5bc3b70f58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Used/PluginsPagages/Controllers/oculus_quest_controller_right/trigger.obj using Guid(55572e15683426841b6a1d5bc3b70f58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '832267d3c100840ab116eac2164729ae') in 0.097269 seconds
+  Import took 0.104161 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000364 seconds.
+  path: Assets/Used/PluginsPagages/Oculus/SampleFramework/Usage/SharedAssets/Models/light_01.fbx
+  artifactKey: Guid(bfb489ece60964f70a07bdbc2eaf241c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Used/PluginsPagages/Oculus/SampleFramework/Usage/SharedAssets/Models/light_01.fbx using Guid(bfb489ece60964f70a07bdbc2eaf241c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e0f9b8a94c3379906aab7b5911fd0b9') in 0.091389 seconds
+  Import took 0.103488 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000357 seconds.
+  path: Assets/Used/PluginsPagages/Controllers/oculus_quest2_controller_left/oculus_quest2_controller_left_button_x.obj
+  artifactKey: Guid(c7a2dcb2c9850b54899678ffc05e833d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Used/PluginsPagages/Controllers/oculus_quest2_controller_left/oculus_quest2_controller_left_button_x.obj using Guid(c7a2dcb2c9850b54899678ffc05e833d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfc6c76c4411c302e43c512e45355519') in 0.090764 seconds
+  Import took 0.098120 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000334 seconds.
+  path: Assets/Used/PluginsPagages/Controllers/oculus_rifts_controller_left/button_enter.obj
+  artifactKey: Guid(554b8f540fbd03b47870e047e5d9b415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Used/PluginsPagages/Controllers/oculus_rifts_controller_left/button_enter.obj using Guid(554b8f540fbd03b47870e047e5d9b415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da125d949511056df6c264a87a0754df') in 0.093893 seconds
+  Import took 0.101392 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Used/PluginsPagages/Controllers/oculus_quest_controller_left/button_grip.obj
+  artifactKey: Guid(0b19d8ba59c9b4747b8d7218330f916b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Used/PluginsPagages/Controllers/oculus_quest_controller_left/button_grip.obj using Guid(0b19d8ba59c9b4747b8d7218330f916b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f94e17a6ec6466d7f855e6442d94cd0f') in 0.109608 seconds
+  Import took 0.147129 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/Used/PluginsPagages/Controllers/oculus_quest2_controller_left/oculus_quest2_controller_left_trigger.obj
+  artifactKey: Guid(43d81e61029b24345be17ca1363d18e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Used/PluginsPagages/Controllers/oculus_quest2_controller_left/oculus_quest2_controller_left_trigger.obj using Guid(43d81e61029b24345be17ca1363d18e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3616c41eaeae05f7471ea5e18653397') in 0.087047 seconds
+  Import took 0.093506 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000381 seconds.
+  path: Assets/Used/PluginsPagages/oculus_rifts_controller_left/button_x.obj
+  artifactKey: Guid(fe02b048dbec5bd4db3080c523c467ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Used/PluginsPagages/oculus_rifts_controller_left/button_x.obj using Guid(fe02b048dbec5bd4db3080c523c467ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e87d3169ed9418baf1dacf3599202ca') in 0.107767 seconds
+  Import took 0.118438 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/Used/PluginsPagages/oculus_rifts_controller_left/button_grip.obj
+  artifactKey: Guid(bae7d14122af3714d93c369cdc4f9a48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Used/PluginsPagages/oculus_rifts_controller_left/button_grip.obj using Guid(bae7d14122af3714d93c369cdc4f9a48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8c6c97ffaabe67e991c685582110f4c') in 0.086959 seconds
+  Import took 0.093894 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Used/PluginsPagages/Controllers/oculus_quest2_controller_left/oculus_quest2_controller_left_grip.obj
+  artifactKey: Guid(0478f5ef89a5c194f9efa5b5e59a77e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Used/PluginsPagages/Controllers/oculus_quest2_controller_left/oculus_quest2_controller_left_grip.obj using Guid(0478f5ef89a5c194f9efa5b5e59a77e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d037185e99c44ad8a54532d0eda7495') in 0.092643 seconds
+  Import took 0.101289 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000423 seconds.
+  path: Assets/Used/PluginsPagages/oculus_rifts_controller_left/body.obj
+  artifactKey: Guid(36ec3d7d9a019ab4883fd58317a41c40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Used/PluginsPagages/oculus_rifts_controller_left/body.obj using Guid(36ec3d7d9a019ab4883fd58317a41c40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79679788b85ea84e564c8c84d1432356') in 0.091731 seconds
+  Import took 0.105662 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000358 seconds.
+  path: Assets/Used/PluginsPagages/Oculus/SampleFramework/Usage/SharedAssets/Models/ball_billiard_10.fbx
+  artifactKey: Guid(4a42e5011990d97479599bd0c3f4f7bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Used/PluginsPagages/Oculus/SampleFramework/Usage/SharedAssets/Models/ball_billiard_10.fbx using Guid(4a42e5011990d97479599bd0c3f4f7bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00e6e2fd9dccb5972726e1d5b4549f7d') in 0.118383 seconds
+  Import took 0.132780 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/Used/PluginsPagages/Controllers/oculus_rifts_controller_left/button_y.obj
+  artifactKey: Guid(38d088185ab77f74cb3b9243e6a86fd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Used/PluginsPagages/Controllers/oculus_rifts_controller_left/button_y.obj using Guid(38d088185ab77f74cb3b9243e6a86fd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd48ca2f3ee06a8d4ebea5af00f08b9a') in 0.112364 seconds
+  Import took 0.119060 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/Used/PluginsPagages/Oculus/SampleFramework/Core/TouchControllers/Models/right_touch_controller_model_skel.fbx
+  artifactKey: Guid(270ca9aaa39af4d4bb26754fdce0c971) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Used/PluginsPagages/Oculus/SampleFramework/Core/TouchControllers/Models/right_touch_controller_model_skel.fbx using Guid(270ca9aaa39af4d4bb26754fdce0c971) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a4b589bad915828ca49674583f59fdf') in 0.169410 seconds
+  Import took 0.176155 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/Used/PluginsPagages/Controllers/oculus_rifts_controller_right/trigger.obj
+  artifactKey: Guid(70c50c886e3cbfb49a3ee56a5ae3bec8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Used/PluginsPagages/Controllers/oculus_rifts_controller_right/trigger.obj using Guid(70c50c886e3cbfb49a3ee56a5ae3bec8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99c0d1eef66ba7c75d21811acc2885b7') in 0.089804 seconds
+  Import took 0.098369 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000390 seconds.
+  path: Assets/Used/PluginsPagages/oculus_rifts_controller_left/button_enter.obj
+  artifactKey: Guid(31ef158e84fc44945bb39b60a225f6bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Used/PluginsPagages/oculus_rifts_controller_left/button_enter.obj using Guid(31ef158e84fc44945bb39b60a225f6bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ead56f6b6d671fd9ceb20f9375e46a19') in 0.121783 seconds
+  Import took 0.128075 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Used/PluginsPagages/Controllers/oculus_quest2_controller_right/oculus_quest2_controller_right_button_b.obj
+  artifactKey: Guid(4b88295cd78deaf4594f7c1247b6053c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Used/PluginsPagages/Controllers/oculus_quest2_controller_right/oculus_quest2_controller_right_button_b.obj using Guid(4b88295cd78deaf4594f7c1247b6053c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '313dee7b44bb9e5c4503aac3bf8d403d') in 0.100490 seconds
+  Import took 0.110008 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Assets/Used/PluginsPagages/Controllers/oculus_rifts_controller_left/button_grip.obj
+  artifactKey: Guid(4a80e43d23a3eb74295cc0018e1bafa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Used/PluginsPagages/Controllers/oculus_rifts_controller_left/button_grip.obj using Guid(4a80e43d23a3eb74295cc0018e1bafa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70d578c8484ab9729631d54a2bcc03d2') in 0.079511 seconds
+  Import took 0.086362 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/Used/PluginsPagages/Oculus/SampleFramework/Usage/SharedAssets/Models/doorframe_01.fbx
+  artifactKey: Guid(0c7bd497493fc42dd99a9a6f1a4342cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Used/PluginsPagages/Oculus/SampleFramework/Usage/SharedAssets/Models/doorframe_01.fbx using Guid(0c7bd497493fc42dd99a9a6f1a4342cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f3942d9c8835916beca7c41e4d79126') in 0.080039 seconds
+  Import took 0.097440 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000368 seconds.
+  path: Assets/Used/PluginsPagages/Controllers/oculus_quest2_controller_right/oculus_quest2_controller_right.obj
+  artifactKey: Guid(7e2924ba9689561409b3e4bfe9d16c79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Used/PluginsPagages/Controllers/oculus_quest2_controller_right/oculus_quest2_controller_right.obj using Guid(7e2924ba9689561409b3e4bfe9d16c79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fc48bb304f0ddec9873981208acab90') in 0.094772 seconds
+  Import took 0.109040 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000451 seconds.
+  path: Assets/Used/PluginsPagages/Oculus/SampleFramework/Usage/SharedAssets/Models/block_wood_01.fbx
+  artifactKey: Guid(6ec0c875cb1c94e40afcad0a0161eb4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Used/PluginsPagages/Oculus/SampleFramework/Usage/SharedAssets/Models/block_wood_01.fbx using Guid(6ec0c875cb1c94e40afcad0a0161eb4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cb0809e3c579edf9cf1158cb4f283f5') in 0.110708 seconds
+  Import took 0.115994 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/Used/PluginsPagages/Controllers/generic_controller/generic_controller.obj
+  artifactKey: Guid(15f3878e13968e34aba1cd9ea022d663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Used/PluginsPagages/Controllers/generic_controller/generic_controller.obj using Guid(15f3878e13968e34aba1cd9ea022d663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90cbc510e08675d9cc99aec0f82feafa') in 0.107821 seconds
+  Import took 0.131736 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Used/PluginsPagages/Controllers/oculus_quest2_controller_right/oculus_quest2_controller_right_body.obj
+  artifactKey: Guid(94b2941d89baee942adfa49e5d7ad5e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Used/PluginsPagages/Controllers/oculus_quest2_controller_right/oculus_quest2_controller_right_body.obj using Guid(94b2941d89baee942adfa49e5d7ad5e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1c982514d67b741ba4393a34a4579cb') in 0.112682 seconds
+  Import took 0.136763 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Used/PluginsPagages/Controllers/oculus_quest2_controller_left/oculus_quest2_controller_left_thumbstick.obj
+  artifactKey: Guid(77b60ddcbfe2e4f4ab91e3c8c4d2839c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Used/PluginsPagages/Controllers/oculus_quest2_controller_left/oculus_quest2_controller_left_thumbstick.obj using Guid(77b60ddcbfe2e4f4ab91e3c8c4d2839c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2842e33e2fd9cadd7f6d6a4e4c4bb4ad') in 0.086724 seconds
+  Import took 0.104732 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000306 seconds.
+  path: Assets/Used/PluginsPagages/Oculus/SampleFramework/Usage/SharedAssets/Models/ball_billiard_03.fbx
+  artifactKey: Guid(9e5fdf0438d84fe498dfaf4e22a401f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Used/PluginsPagages/Oculus/SampleFramework/Usage/SharedAssets/Models/ball_billiard_03.fbx using Guid(9e5fdf0438d84fe498dfaf4e22a401f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2cecff5507cd5493c70834804a0e2ea') in 0.103223 seconds
+  Import took 0.110997 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/Used/PluginsPagages/Controllers/oculus_quest2_controller_right/oculus_quest2_controller_right_button_menu.obj
+  artifactKey: Guid(1c7e4997483660d46a5432c8c8f00080) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Used/PluginsPagages/Controllers/oculus_quest2_controller_right/oculus_quest2_controller_right_button_menu.obj using Guid(1c7e4997483660d46a5432c8c8f00080) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbb29cdddae30f198e3fe765cb3a310f') in 0.100414 seconds
+  Import took 0.107990 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000364 seconds.
+  path: Assets/Used/PluginsPagages/Controllers/oculus_quest2_controller_right/oculus_quest2_controller_right_trigger.obj
+  artifactKey: Guid(8b7cb484f29239b489685f75020fa30c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Used/PluginsPagages/Controllers/oculus_quest2_controller_right/oculus_quest2_controller_right_trigger.obj using Guid(8b7cb484f29239b489685f75020fa30c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac40a154a4e3c03b1def3b9586ba73c9') in 0.110783 seconds
+  Import took 0.117044 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Used/PluginsPagages/Controllers/oculus_quest_controller_left/button_enter.obj
+  artifactKey: Guid(3c2668cf6fbba5c4db79fcc5a31bcd4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Used/PluginsPagages/Controllers/oculus_quest_controller_left/button_enter.obj using Guid(3c2668cf6fbba5c4db79fcc5a31bcd4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd31d1036ee493e217ab7be012a13b2a') in 0.114425 seconds
+  Import took 0.127718 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Used/PluginsPagages/Controllers/oculus_quest2_controller_left/oculus_quest2_controller_left_body.obj
+  artifactKey: Guid(32254cd560ac99e4b81557f2f9b90e9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Used/PluginsPagages/Controllers/oculus_quest2_controller_left/oculus_quest2_controller_left_body.obj using Guid(32254cd560ac99e4b81557f2f9b90e9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b439a2497d52cb8c97078fc5c66846d') in 0.096399 seconds
+  Import took 0.102544 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Used/PluginsPagages/Controllers/oculus_quest2_controller_right/oculus_quest2_controller_right_grip.obj
+  artifactKey: Guid(98d2bb488ee8a114484074807251d82e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Used/PluginsPagages/Controllers/oculus_quest2_controller_right/oculus_quest2_controller_right_grip.obj using Guid(98d2bb488ee8a114484074807251d82e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea387e61eacec4e98186941cd82d5e0d') in 0.096970 seconds
+  Import took 0.129600 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.168440 seconds.
+  path: Assets/Used/PluginsPagages/Controllers/oculus_quest2_controller_right/oculus_quest2_controller_right_button_a.obj
+  artifactKey: Guid(a3faa25a3f3569148ad32bcd3a1ebc7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Used/PluginsPagages/Controllers/oculus_quest2_controller_right/oculus_quest2_controller_right_button_a.obj using Guid(a3faa25a3f3569148ad32bcd3a1ebc7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d25515e085730c0501639587858fdac') in 0.084012 seconds
+  Import took 0.100406 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000336 seconds.
+  path: Assets/Used/PluginsPagages/Controllers/oculus_quest2_controller_left/oculus_quest2_controller_left_button_menu.obj
+  artifactKey: Guid(7376964d2a1012443a29dd1e99c7b699) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Used/PluginsPagages/Controllers/oculus_quest2_controller_left/oculus_quest2_controller_left_button_menu.obj using Guid(7376964d2a1012443a29dd1e99c7b699) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7cd7ca545477251250333bd30599785') in 0.092520 seconds
+  Import took 0.103696 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.016381 seconds.
+  path: Assets/Used/PluginsPagages/Oculus/SampleFramework/Core/DistanceGrab/Mesh/GrabConeVolume.asset
+  artifactKey: Guid(fcd019dc7c1f92140963033f1669ec2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Used/PluginsPagages/Oculus/SampleFramework/Core/DistanceGrab/Mesh/GrabConeVolume.asset using Guid(fcd019dc7c1f92140963033f1669ec2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '089fc3cf2777edf7395a4cf17673ba25') in 0.053424 seconds
+  Import took 0.059523 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.538534 seconds.
+  path: Assets/Used/PluginsPagages/Katana/Mesh/OBJ/Katana_LODA.obj
+  artifactKey: Guid(3d88c319821b89f4086eb24c6b2faee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Used/PluginsPagages/Katana/Mesh/OBJ/Katana_LODA.obj using Guid(3d88c319821b89f4086eb24c6b2faee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '781836bd9c2b8f504878fac0117a34fb') in 0.041561 seconds
+  Import took 0.048255 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.036940 seconds.
+Begin MonoManager ReloadAssembly
+Refreshing native plugins compatible for Editor in 1.09 ms, found 10 plugins.
+Preloading 2 native plugins for Editor in 0.34 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.962 seconds
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 1.38 ms, found 10 plugins.
+Preloading 2 native plugins for Editor in 0.29 ms.
+Unloading 2402 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 202.2 MB.
+System memory in use after: 201.9 MB.
+
+Unloading 32 unused Assets to reduce memory usage. Loaded Objects now: 3008.
+Total: 4.762600 ms (FindLiveObjects: 0.648200 ms CreateObjectMapping: 0.333200 ms MarkObjects: 3.017000 ms  DeleteObjects: 0.762300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.025726 seconds.
+Begin MonoManager ReloadAssembly
+Refreshing native plugins compatible for Editor in 2.46 ms, found 10 plugins.
+Preloading 2 native plugins for Editor in 0.26 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.191 seconds
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 1.79 ms, found 10 plugins.
+Preloading 2 native plugins for Editor in 0.24 ms.
+Unloading 2402 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 202.2 MB.
+System memory in use after: 201.9 MB.
+
+Unloading 32 unused Assets to reduce memory usage. Loaded Objects now: 3012.
+Total: 3.186000 ms (FindLiveObjects: 0.363100 ms CreateObjectMapping: 0.190300 ms MarkObjects: 2.045400 ms  DeleteObjects: 0.585800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.077202 seconds.
+Begin MonoManager ReloadAssembly
+Refreshing native plugins compatible for Editor in 2.62 ms, found 10 plugins.
+Preloading 2 native plugins for Editor in 0.32 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.410 seconds
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 1.32 ms, found 10 plugins.
+Preloading 2 native plugins for Editor in 0.19 ms.
+Unloading 2402 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 202.2 MB.
+System memory in use after: 202.0 MB.
+
+Unloading 32 unused Assets to reduce memory usage. Loaded Objects now: 3016.
+Total: 4.480700 ms (FindLiveObjects: 0.433400 ms CreateObjectMapping: 0.227500 ms MarkObjects: 2.966000 ms  DeleteObjects: 0.851700 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

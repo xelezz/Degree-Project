@@ -56,13 +56,13 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\PluginsPagages\Oculus\Platform\Editor\OculusPlatformSettingsEditor.cs" />
-    <Compile Include="Assets\PluginsPagages\Oculus\Platform\Editor\GUIHelper.cs" />
-    <Compile Include="Assets\PluginsPagages\Oculus\Platform\Editor\OculusStandalonePlatformResponse.cs" />
-    <Compile Include="Assets\PluginsPagages\Oculus\Platform\Editor\OculusPluginUpdaterStub.cs" />
+    <Compile Include="Assets\Used\PluginsPagages\Oculus\Platform\Editor\OculusPlatformSettingsEditor.cs" />
+    <Compile Include="Assets\Used\PluginsPagages\Oculus\Platform\Editor\GUIHelper.cs" />
+    <Compile Include="Assets\Used\PluginsPagages\Oculus\Platform\Editor\OculusStandalonePlatformResponse.cs" />
+    <Compile Include="Assets\Used\PluginsPagages\Oculus\Platform\Editor\OculusPluginUpdaterStub.cs" />
   </ItemGroup>
   <ItemGroup>
-     <None Include="Assets\PluginsPagages\Oculus\Platform\Editor\Oculus.Platform.Editor.asmdef" />
+     <None Include="Assets\Used\PluginsPagages\Oculus\Platform\Editor\Oculus.Platform.Editor.asmdef" />
     <Reference Include="UnityEngine">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.7f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
