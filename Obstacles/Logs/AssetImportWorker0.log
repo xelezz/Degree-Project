@@ -1,0 +1,285 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.5f1 (8095aa901b9b) revision 8426922'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19042.928; Version 2009; 64bit' Language: 'sv' Physical Memory: 8145 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.5f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/xelez/Documents/GitHub/VR/Degree-Project/Obstacles
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+63773
+Successfully changed project path to: C:/Users/xelez/Documents/GitHub/VR/Degree-Project/Obstacles
+C:/Users/xelez/Documents/GitHub/VR/Degree-Project/Obstacles
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 446.46 ms, found 10 plugins.
+Preloading 2 native plugins for Editor in 2.87 ms.
+Initialize engine version: 2020.3.5f1 (8095aa901b9b)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/xelez/Documents/GitHub/VR/Degree-Project/Obstacles/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1070 (ID=0x1b81)
+    Vendor:   
+    VRAM:     8088 MB
+    Driver:   27.21.14.5765
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56804
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004330 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 112.50 ms, found 10 plugins.
+Preloading 2 native plugins for Editor in 0.19 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.739 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.015289 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 120.18 ms, found 10 plugins.
+Preloading 2 native plugins for Editor in 0.17 ms.
+[XR] OculusXRPlugin: registering subsystems
+[XR] Unable to register display lifecyle provider: [1]
+[XR] Oculus Input lifecycle provider registered.
+[XR] Unable to register input lifecyle provider: [1]
+[XR] OVRP version 1.57.0
+Mono: successfully reloaded assembly
+- Completed reload, in  2.159 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 1.88 ms, found 10 plugins.
+Preloading 2 native plugins for Editor in 0.19 ms.
+Unloading 2528 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 193.9 MB.
+System memory in use after: 193.5 MB.
+
+Unloading 39 unused Assets to reduce memory usage. Loaded Objects now: 2963.
+Total: 4.823900 ms (FindLiveObjects: 0.577500 ms CreateObjectMapping: 0.434200 ms MarkObjects: 3.062800 ms  DeleteObjects: 0.747300 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Used/Prefabs/Obstacle2.prefab
+  artifactKey: Guid(29a8419d6234c2c40bb9e66d54e82405) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Used/Prefabs/Obstacle2.prefab using Guid(29a8419d6234c2c40bb9e66d54e82405) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6008d138a791d6cbec6ddf30f52321ea') in 0.181998 seconds
+  Import took 0.190832 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/Used/Prefabs/Obstacle.prefab
+  artifactKey: Guid(f1ec683afebaefc46a9c4d8a7049f67a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Used/Prefabs/Obstacle.prefab using Guid(f1ec683afebaefc46a9c4d8a7049f67a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4698585ad57cb6a94f0cea1da90013d8') in 0.046967 seconds
+  Import took 0.131367 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/Used/Prefabs/Obstacle1.prefab
+  artifactKey: Guid(87c28ca4c7bfcdd4ca40406f3b33fce9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Used/Prefabs/Obstacle1.prefab using Guid(87c28ca4c7bfcdd4ca40406f3b33fce9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4adf88cb7486a595825806b41ab84dc') in 0.057069 seconds
+  Import took 0.065307 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.380310 seconds.
+  path: Assets/Used/Scenes/StartMenu.unity
+  artifactKey: Guid(04550972bd2bc4c4e8e9ad5321de2d82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Used/Scenes/StartMenu.unity using Guid(04550972bd2bc4c4e8e9ad5321de2d82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2c00e64dcc3f8dd2b045cfdf4951525') in 0.014504 seconds
+  Import took 0.022998 seconds .
+
+========================================================================
+Received Prepare
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 12.54 ms, found 10 plugins.
+Preloading 2 native plugins for Editor in 0.17 ms.
+Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 142.6 MB.
+System memory in use after: 142.3 MB.
+
+Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 2971.
+Total: 6.496500 ms (FindLiveObjects: 1.684800 ms CreateObjectMapping: 0.318800 ms MarkObjects: 3.846900 ms  DeleteObjects: 0.644600 ms)
+
+========================================================================
+Received Prepare
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 15.69 ms, found 10 plugins.
+Preloading 2 native plugins for Editor in 0.17 ms.
+Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 142.6 MB.
+System memory in use after: 142.4 MB.
+
+Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 2971.
+Total: 5.072400 ms (FindLiveObjects: 0.352100 ms CreateObjectMapping: 0.273000 ms MarkObjects: 3.644700 ms  DeleteObjects: 0.800700 ms)
+
+========================================================================
+Received Prepare
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 14.97 ms, found 10 plugins.
+Preloading 2 native plugins for Editor in 0.16 ms.
+Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 142.7 MB.
+System memory in use after: 142.4 MB.
+
+Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 2971.
+Total: 6.448400 ms (FindLiveObjects: 0.435600 ms CreateObjectMapping: 0.235300 ms MarkObjects: 5.112800 ms  DeleteObjects: 0.656500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 212.003402 seconds.
+  path: Assets/Used/Scenes/StartMenu.unity
+  artifactKey: Guid(04550972bd2bc4c4e8e9ad5321de2d82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Used/Scenes/StartMenu.unity using Guid(04550972bd2bc4c4e8e9ad5321de2d82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '824651b53e8aa53ab30c502cc41784ae') in 0.056138 seconds
+  Import took 0.064996 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 40.087725 seconds.
+  path: Assets/Used/Scenes/ScoreScene.unity
+  artifactKey: Guid(87dabc08d77f5e44dab426647a532915) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Used/Scenes/ScoreScene.unity using Guid(87dabc08d77f5e44dab426647a532915) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '489cdf60cf8eeea75ee8434bb8321f2d') in 0.017201 seconds
+  Import took 0.031654 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 3.093865 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.73 ms, found 10 plugins.
+Preloading 2 native plugins for Editor in 0.21 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  8.981 seconds
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 1.47 ms, found 10 plugins.
+Preloading 2 native plugins for Editor in 0.34 ms.
+Unloading 2409 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 189.6 MB.
+System memory in use after: 189.3 MB.
+
+Unloading 32 unused Assets to reduce memory usage. Loaded Objects now: 2975.
+Total: 5.230800 ms (FindLiveObjects: 0.354600 ms CreateObjectMapping: 0.318400 ms MarkObjects: 3.990600 ms  DeleteObjects: 0.564800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 203.870397 seconds.
+  path: Assets/Used/Scenes/MainScene/MainScene.unity
+  artifactKey: Guid(bcb62b3efec80b044969c91496bf1427) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Used/Scenes/MainScene/MainScene.unity using Guid(bcb62b3efec80b044969c91496bf1427) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38d9b617e1d0265a03e271842c5d5be8') in 0.091049 seconds
+  Import took 0.114173 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.845629 seconds.
+  path: Assets/Used/Prefabs/Obstacle.prefab
+  artifactKey: Guid(f1ec683afebaefc46a9c4d8a7049f67a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Used/Prefabs/Obstacle.prefab using Guid(f1ec683afebaefc46a9c4d8a7049f67a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93f303034c82b7ee3549efafdb93e928') in 0.213147 seconds
+  Import took 0.223402 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000363 seconds.
+  path: Assets/Used/Prefabs/Obstacle2.prefab
+  artifactKey: Guid(29a8419d6234c2c40bb9e66d54e82405) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Used/Prefabs/Obstacle2.prefab using Guid(29a8419d6234c2c40bb9e66d54e82405) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7116f7b2d0c5a6b65a2a2efb2af9b7b') in 0.177145 seconds
+  Import took 0.183457 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000398 seconds.
+  path: Assets/Used/Prefabs/Obstacle1.prefab
+  artifactKey: Guid(87c28ca4c7bfcdd4ca40406f3b33fce9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Used/Prefabs/Obstacle1.prefab using Guid(87c28ca4c7bfcdd4ca40406f3b33fce9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ef8146ff723b7430c0c0b8b4752551e') in 0.115057 seconds
+  Import took 0.125144 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.436279 seconds.
+  path: Assets/Used/Prefabs/Obstacle.prefab
+  artifactKey: Guid(f1ec683afebaefc46a9c4d8a7049f67a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Used/Prefabs/Obstacle.prefab using Guid(f1ec683afebaefc46a9c4d8a7049f67a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36fd60fa3419457b87aa9c395953f71f') in 0.052544 seconds
+  Import took 0.062106 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/Used/Prefabs/Obstacle2.prefab
+  artifactKey: Guid(29a8419d6234c2c40bb9e66d54e82405) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Used/Prefabs/Obstacle2.prefab using Guid(29a8419d6234c2c40bb9e66d54e82405) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77ac7b999e99f47fb24614ccb862dc83') in 0.095387 seconds
+  Import took 0.105170 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002126 seconds.
+  path: Assets/Used/Prefabs/Obstacle1.prefab
+  artifactKey: Guid(87c28ca4c7bfcdd4ca40406f3b33fce9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Used/Prefabs/Obstacle1.prefab using Guid(87c28ca4c7bfcdd4ca40406f3b33fce9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae41172e48a62d1182f6c73dfa37d77b') in 0.089579 seconds
+  Import took 0.103538 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.863591 seconds.
+  path: Assets/Used/Prefabs/Obstacle.prefab
+  artifactKey: Guid(f1ec683afebaefc46a9c4d8a7049f67a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Used/Prefabs/Obstacle.prefab using Guid(f1ec683afebaefc46a9c4d8a7049f67a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d30aa3dcb9b6b9a7ec2d190d5a0bb91') in 0.148798 seconds
+  Import took 0.264938 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/Used/Prefabs/Obstacle2.prefab
+  artifactKey: Guid(29a8419d6234c2c40bb9e66d54e82405) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Used/Prefabs/Obstacle2.prefab using Guid(29a8419d6234c2c40bb9e66d54e82405) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b13020f3cf56845c1b1c0bfca1bafc57') in 0.287630 seconds
+  Import took 0.295020 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002050 seconds.
+  path: Assets/Used/Prefabs/Obstacle1.prefab
+  artifactKey: Guid(87c28ca4c7bfcdd4ca40406f3b33fce9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Used/Prefabs/Obstacle1.prefab using Guid(87c28ca4c7bfcdd4ca40406f3b33fce9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dda98cb2821f428ee2344e6ead12162c') in 0.173138 seconds
+  Import took 0.221433 seconds .
+
+========================================================================
+Received Prepare
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 13.88 ms, found 10 plugins.
+Preloading 2 native plugins for Editor in 0.16 ms.
+Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 142.9 MB.
+System memory in use after: 142.6 MB.
+
+Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 2976.
+Total: 4.987100 ms (FindLiveObjects: 0.383000 ms CreateObjectMapping: 0.198800 ms MarkObjects: 3.776800 ms  DeleteObjects: 0.627000 ms)
+
+========================================================================
+Received Prepare
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 347.72 ms, found 10 plugins.
+Preloading 2 native plugins for Editor in 0.19 ms.
+Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 142.9 MB.
+System memory in use after: 142.6 MB.
+
+Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 2976.
+Total: 5.509400 ms (FindLiveObjects: 0.669000 ms CreateObjectMapping: 0.245700 ms MarkObjects: 3.745900 ms  DeleteObjects: 0.847100 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
